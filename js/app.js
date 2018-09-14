@@ -111,7 +111,8 @@
 		//2. Arrays do not guarantee that the elements will be in order
 		//3. A list of students could be modeled with an array
 	//B. Easy does it
-		//1. 		
+		//1. Create an array that contains three quotes and store it in a variable called quotes.
+		const quotes = ["To infinity and beyond","The first rule is you do not talk about fight club","All your base are belong to us"];		
 
 
 
