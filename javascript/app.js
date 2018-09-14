@@ -13,10 +13,10 @@ console.log("JS IS RUNNING!");
 // We change a variable's value by reassigning one.
 // However one must pay attention to the declared variable type!
 // const variables cannot be reassigned!
-let ex1 = 5;
-const ex2 = 7;
-ex1 = ex1*2;
-ex2 = ex2*5; //==> app.js:20 Uncaught TypeError: Assignment to constant variable.
+// let ex1 = 5;
+// const ex2 = 7;
+// ex1 = ex1*2;
+// ex2 = ex2*5; //==> app.js:20 Uncaught TypeError: Assignment to constant variable.
 
 // How do we assign an existing variable to a new variable?
 // A new empty variable can be assigned any object, so another variable is cool!
@@ -85,15 +85,26 @@ console.log("Hello, my name is " + yourName);;
   console.log(a !== b <= c);
   console.log(a !== a <= d);
   console.log(48 == '48');
+
 // 🔴 Commit.
 ////////////////////////////////////////
 
-// D. The farm
+
+// D. The Farm
+
 // Declare a variable animal. Set it to be either "cow" or something else.
+let animal = "cow";
 // Write code that will print out "mooooo" if the it is equal to cow.
 // Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
+if (animal === "cow") {
+	console.log("mooooo");
+} else {
+	console.log("Hey! You're not a cow.");
+}
+
 // 🔴 Commit.
 ////////////////////////////////////////
+
 
 // E. Driver's Ed
 // Make a variable that will hold a person's age. Be semantic.
