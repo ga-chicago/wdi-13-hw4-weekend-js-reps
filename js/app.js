@@ -54,3 +54,16 @@ console.log("works");
   console.log(48 == '48');
 
 
+
+//------------the farm--------------//
+//
+// Declare a variable animal. Set it to be either "cow" or something else.
+// Write code that will print out "mooooo" if the it is equal to cow.
+// Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
+// Commit.
+const animal = "cat";
+if (animal != "cow") {
+	console.log("mooooo");
+} else {
+	console.log("Hey! you're not a cow!");
+}
