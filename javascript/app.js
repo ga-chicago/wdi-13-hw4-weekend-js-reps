@@ -13,10 +13,10 @@ console.log("JS IS RUNNING!");
 // We change a variable's value by reassigning one.
 // However one must pay attention to the declared variable type!
 // const variables cannot be reassigned!
-// let ex1 = 5;
-// const ex2 = 7;
-// ex1 = ex1*2;
-// ex2 = ex2*5; //==> app.js:20 Uncaught TypeError: Assignment to constant variable.
+let ex1 = 5;
+const ex2 = 7;
+ex1 = ex1*2;
+ex2 = ex2*5; //==> app.js:20 Uncaught TypeError: Assignment to constant variable.
 
 // How do we assign an existing variable to a new variable?
 // A new empty variable can be assigned any object, so another variable is cool!
@@ -40,37 +40,51 @@ console.log("JS IS RUNNING!");
 // 🔴 Commit.
 ////////////////////////////////////////
 
+
 // B. Strings
 
 // Create a variable called firstVariable.
+//==> Must declare variable with a let because we will be changing its value
+let firstVariable;
 // Assign it the value of the string "Hello World"
+firstVariable = "Hello World";
 // Change the value of this variable to some number.
+firstVariable = 9;
 // Store the value of firstVariable in a new variable called secondVariable
+let secondVariable = firstVariable;
 // Change the value of secondVariable to any string.
+secondVariable = "Goodbye World";
 // What is the value of firstVariable?
-// Create a variable called yourName and set it equal to your name as a string. Then, write an expression that takes the string "Hello, my name is " and the variable yourName so that it returns a new string with them concatenated.
+console.log(firstVariable); // ==> 9
+// Create a variable called yourName and set it equal to your name as a string. 
+let yourName = "Charlotte";
+// Then, write an expression that takes the string "Hello, my name is " and the variable yourName so that it returns a new string with them concatenated.
 // ex: Hello, my name is Jean Valjean
+console.log("Hello, my name is " + yourName);;
+
 // 🔴 Commit.
 ////////////////////////////////////////
 
-// C. Booleans
-// Using the provided variable definitions, replace the blanks so that all log statements print true in the console. Answers should be all be valid JS syntax and not weird things that don't make sense but happen to print true to the console.
-//   const a = 4;
-//   const b = 53;
-//   const c = 57;
-//   const d = 16;
-//   const e = 'Kevin';
 
-//   console.log(a __ b);
-//   console.log(c __ d);
-//   console.log('Name' __ 'Name');
-//   console.log(true __ false);
-//   console.log(false __ false __ false __ false __ false __ false __ true);
-//   console.log(false __ false)
-//   console.log(e ___ 'Kevin');
-//   console.log(a __ b ___ c);
-//   console.log(a __ a ___ d);
-//   console.log(48 __ '48');
+// C. Booleans
+
+// Using the provided variable definitions, replace the blanks so that all log statements print true in the console. Answers should be all be valid JS syntax and not weird things that don't make sense but happen to print true to the console.
+  const a = 4;
+  const b = 53;
+  const c = 57;
+  const d = 16;
+  const e = 'Kevin';
+
+  console.log(a <= b);
+  console.log(c >= d);
+  console.log('Name' === 'Name');
+  console.log(true !== false);
+  console.log(false === false === false === false === false === false === true);
+  console.log(false === false)
+  console.log(e === 'Kevin');
+  console.log(a !== b <= c);
+  console.log(a !== a <= d);
+  console.log(48 == '48');
 // 🔴 Commit.
 ////////////////////////////////////////
 
