@@ -82,6 +82,21 @@ console.log('Hello, my name is ' + yourName);
   console.log(48 == '48');
 
 
+  //---------------THE FARM
+
+
+// Declare a variable animal. Set it to be either "cow" or something else.
+// Write code that will print out "mooooo" if the it is equal to cow.
+// Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
+
+  let animal = 'cow';
+  if('cow'== animal) {
+  	console.log('mooooooo');
+  } else {
+  	console.log("Hey! You're not a cow");
+  }
+
+
 
 
 
