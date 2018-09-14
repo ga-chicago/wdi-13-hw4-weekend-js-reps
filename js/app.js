@@ -99,6 +99,13 @@
 		for(let i = 1; i <= 100; i++) {
 			doubleSum += i*2;
 		}
+	//E. Multiples of 3 and 5
+		let euler1 = 0;
+		for(let i = 1; i < 1000; i++) {
+			if(i % 5 === 0 || i % 3 === 0) {
+				euler1 += i;
+			}
+		}
 		
 
 
