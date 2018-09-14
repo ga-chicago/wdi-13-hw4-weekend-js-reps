@@ -88,6 +88,17 @@
 				console.log("I found a " + i + ". Three is a crowd");
 			}
 		}
+	//D. Savings account
+		//1. Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
+		let bank_account = 0;
+		for(let i = 1; i <= 10; i++) {
+			bank_account += i;
+		}
+		//2. You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+		let doubleSum = 0;
+		for(let i = 1; i <= 100; i++) {
+			doubleSum += i*2;
+		}
 		
 
 
