@@ -1,4 +1,6 @@
 console.log("up and running");
+// I.
+// Part A.
 
 // 1. We assign value to a variable by declaring and defining a const variable -- const variable = "value", declaring and defining a let variable -- let variable = "value". With let variables, we can redefine and thus reassign the value by saying variable = "new value" 
 // 2. We can change the value of a variable through mutation. With let, we can reassign value by saying variable = "new variable"
@@ -12,3 +14,26 @@ console.log("up and running");
 // 5. Pseudocoding is writing out, in plain English, what your code should be doing/what you want to be doing. It is extremely helpful for clarifying exactly what you want to do, what needs to be in your code, what your output should look like, etc.  It makes for more efficient, more effective, more accurate, cleaner programming
 // 6. You should spend about 75% of your time planning your program and about 25% actually coding your program.
 
+// Part B
+// 1.
+
+let firstVariable = "Hello, world";
+firstVariable = 75;
+let secondVariable = firstVariable;
+secondVariable = "My new string!!";
+
+// the value of firstVariable is still 75!
+// check to see if true
+console.log(firstVariable);
+// still 75!
+
+// 2.
+
+const myName = "Andy";
+const sayHello = () => {
+	console.log(`Hello, my name is ${myName}!`);
+}
+// test by invoking sayHello
+sayHello();
+
+// 
