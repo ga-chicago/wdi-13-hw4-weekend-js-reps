@@ -29,3 +29,73 @@ console.log('HOMEWORK');
 // What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
 
 // a. 75-90% planning and 10-25% actually code
+
+
+
+//--------------------STRINGS
+// 1. Create a variable called firstVariable.
+// Assign it the value of the string "Hello World"
+// Change the value of this variable to some number.
+// Store the value of firstVariable in a new variable called secondVariable
+// Change the value of secondVariable to any string.
+// What is the value of firstVariable?
+
+let firstVariable = 'Hello World';
+//reassinging variable to number
+firstVariable = 6;
+//check
+console.log(firstVariable);
+//creating new variable equal to existing variable
+let secondVariable = firstVariable;
+//check
+console.log(secondVariable);
+//change new variable to any string
+secondVariable = 'Any String';
+//check
+console.log(secondVariable);
+//value of first variable.
+console.log(firstVariable);
+
+// 2. Create a variable called yourName and set it equal to your name as a string. Then, write an expression that takes the string "Hello, my name is " and the variable yourName so that it returns a new string with them concatenated.
+
+let yourName = 'Josh Hepworth';
+console.log('Hello, my name is ' + yourName);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
