@@ -32,7 +32,7 @@ console.log('HOMEWORK');
 
 
 
-//--------------------STRINGS
+//--------------------B. STRINGS
 // 1. Create a variable called firstVariable.
 // Assign it the value of the string "Hello World"
 // Change the value of this variable to some number.
@@ -62,7 +62,7 @@ let yourName = 'Josh Hepworth';
 console.log('Hello, my name is ' + yourName);
 
 
-// -----------------BOOLEANS
+// ----------------C. BOOLEANS
 
   const a = 4;
   const b = 53;
@@ -82,20 +82,43 @@ console.log('Hello, my name is ' + yourName);
   console.log(48 == '48');
 
 
-  //---------------THE FARM
+  //--------------D. THE FARM
 
 
 // Declare a variable animal. Set it to be either "cow" or something else.
 // Write code that will print out "mooooo" if the it is equal to cow.
 // Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
 
-  let animal = 'cow';
+  const animal = 'cow';
   if('cow'== animal) {
   	console.log('mooooooo');
   } else {
   	console.log("Hey! You're not a cow");
   }
 
+
+//---------------E. DRIVER'S ED
+
+// Make a variable that will hold a person's age. Be semantic.
+const personAge = 14;
+// Write code that will print out "Here are the keys", if the age is 16 years or older.
+if (personAge >= 16) {
+	console.log('Here are the keys');
+} else {
+	console.log("Sorry you're too young.")
+}
+// If the age is younger than 16, a message should print "Sorry, you're too young.
+
+
+
+//-----------------II LOOPS
+
+// Write a loop that will print out all the numbers from 0 to 10, inclusive.
+for(let i = 0; i <= 10; i++) {
+	console.log(i);
+}
+
+// Write a loop that will print out all the numbers from 10 up to and including 400.
 
 
 
