@@ -120,4 +120,23 @@ for(let i = 0; i <= 100; i++){
 	}
 }
 
-// 2.
+// Savings Account
+
+// let bankAccount = 0;
+
+// for(let i = 1; i <= 10; i++){
+// 	bankAccount += i;
+// }
+// console.log(bankAccount)
+
+let bankAccount = 0;
+
+for(let i = 1; i <= 100; i++){
+	bankAccount += i * 2;
+}
+console.log(bankAccount)
+
+
+
+
+
