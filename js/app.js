@@ -105,8 +105,13 @@
 			if(i % 5 === 0 || i % 3 === 0) {
 				euler1 += i;
 			}
-		}
-		
+//III. Arrays & Control flow
+	//A. Talk about it
+		//1. Things in arrays are called elements
+		//2. Arrays do not guarantee that the elements will be in order
+		//3. A list of students could be modeled with an array
+	//B. Easy does it
+		//1. 		
 
 
 
