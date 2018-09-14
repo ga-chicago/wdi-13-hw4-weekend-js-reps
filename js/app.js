@@ -62,7 +62,7 @@ console.log("works");
 // Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
 // Commit.
 const animal = "cat";
-if (animal != "cow") {
+if (animal == "cow") {
 	console.log("mooooo");
 } else {
 	console.log("Hey! you're not a cow!");
