@@ -34,37 +34,45 @@
 
 // 1. 
 
-let firstVariable = 'Hello world';
+// let firstVariable = 'Hello world';
 
-firstVariable = 99; 
+// firstVariable = 99; 
 
-let secondVariable = firstVariable;
+// let secondVariable = firstVariable;
 
-secondVariable = 'ibuprofin';
+// secondVariable = 'ibuprofin';
 
 // <-- ibuprofin
 
 // 2. 
 
-const yourName = 'John'
+// const yourName = 'John'
 
-console.log('Hello! My name is ' + yourName);
+// console.log('Hello! My name is ' + yourName);
 
 //c. Booleans
 
- const a = 4;
- const b = 53;
- const c = 57;
- const d = 16;
- const e = 'Kevin';
+ // const a = 4;
+ // const b = 53;
+ // const c = 57;
+ // const d = 16;
+ // const e = 'Kevin';
 
- console.log(a < b);
- console.log(c > d);
- console.log('Name' === 'Name');
- console.log(true !== false);
- console.log(false === false === false === false === false === false === true); // ok, I don't understand why this is true but it is?
- console.log(false === false);
- console.log(e === 'Kevin');
- console.log(a + b === c );
- console.log(a * a === d);
- console.log(48 == '48');
+ // console.log(a < b);
+ // console.log(c > d);
+ // console.log('Name' === 'Name');
+ // console.log(true !== false);
+ // console.log(false === false === false === false === false === false === true); // ok, I don't understand why this is true but it is?
+ // console.log(false === false);
+ // console.log(e === 'Kevin');
+ // console.log(a + b === c );
+ // console.log(a * a === d);
+ // console.log(48 == '48');
+
+ //d. 
+
+ // let animal = 'horse'
+
+ // if (animal === 'cow') {
+ // 	console.log('Mooooo!')
+ // } else console.log("Hey! You're not a cow!")
