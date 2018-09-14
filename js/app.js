@@ -63,6 +63,16 @@ console.log('Hello, my name is ' + yourName);
   console.log(a * a === d);
   console.log(48 == '48');
 
+  // The Farm
+
+  const animal = 'dog';
+
+  if(animal === 'cow'){
+  	console.log('Moooo')
+  } else {
+  	console.log("Hey! You're not a cow!");
+  }
+
 
 
 
