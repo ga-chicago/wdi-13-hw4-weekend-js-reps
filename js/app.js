@@ -14,3 +14,16 @@
 			//Pseudocoding consists of writing out what you want code to do in English to help plan the actual coding
 		//6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
 			//Mostly thinking, little coding
+	//B. Strings
+		//1.
+		let firstVariable = "Hello World";
+		firstVariable = 42;
+		let secondVariable = firstVariable;
+		secondVariable = "Beeblebrox";
+		console.log(firstVariable); //42
+
+		//2.
+		let yourName = "Chris Lehman";
+		const hello = () => {
+			return "Hello, my name is " + yourName;
+		}
