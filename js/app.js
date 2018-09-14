@@ -28,11 +28,24 @@
 // 6. 75% to 90% of your time should be spent planning how to do something
 //	  10% to 25% should be spent typing code.
 
+//	Strings
+
+let firstVariable = "Hello World";
+
+firstVariable = 34874;
+
+let secondVariable = firstVariable;
+
+secondVariable = 'This is really fun...'
+
+//	secondVariable will console.log the last thing that was done to it. So, it will print out 'This is really fun...'
+
+const yourName = 'Chris';
+
+console.log('Hello, my name is ' + yourName);
 
 
 
 
 
 
-
-  
