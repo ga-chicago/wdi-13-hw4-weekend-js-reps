@@ -44,6 +44,13 @@
 		console.log(a !== b < c);
 		console.log(a !== a < d);
 		console.log(48 == '48');
+	//D. The farm
+		const animal = "duck";
+		if(animal === "cow") {
+			console.log("mooooo");
+		} else {
+			console.log("Hey! You're not a cow.");
+		}
 
 
 
