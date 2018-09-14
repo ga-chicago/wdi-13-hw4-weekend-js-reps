@@ -105,6 +105,7 @@
 			if(i % 5 === 0 || i % 3 === 0) {
 				euler1 += i;
 			}
+		}
 //III. Arrays & Control flow
 	//A. Talk about it
 		//1. Things in arrays are called elements
@@ -112,8 +113,15 @@
 		//3. A list of students could be modeled with an array
 	//B. Easy does it
 		//1. Create an array that contains three quotes and store it in a variable called quotes.
-		const quotes = ["To infinity and beyond","The first rule is you do not talk about fight club","All your base are belong to us"];		
-
+		const quotes = ["To infinity and beyond","The first rule is you do not talk about fight club","All your base are belong to us"];
+	//C. Accessing elements
+		const randomThings = [1, 10, "Hello", true];
+		//1.	
+		randomThings[0];
+		//2.
+		randomThings[2] = "World";
+		//3.
+		console.log(randomThings);
 
 
 
