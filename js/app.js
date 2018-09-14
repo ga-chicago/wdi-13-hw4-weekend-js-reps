@@ -108,3 +108,16 @@ for(let i = 1; i <= 100; i++){
 		console.log(i + " <-- in an even number");
 	}
 }
+
+// Give Me Five
+
+// 1.
+for(let i = 0; i <= 100; i++){
+	if(i % 5 === 0) {
+		console.log("I found a " + i + ". High five!");
+	} if(i % 3 === 0){
+		console.log("I found a " + i + ". Three is a crowd");
+	}
+}
+
+// 2.
