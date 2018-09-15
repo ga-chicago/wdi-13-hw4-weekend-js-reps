@@ -178,9 +178,29 @@ const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
 
 // 3. ourClass.push("Cloud City")
 
+// E. Mix it up
 
+const myArray = [5, 10, 500, 20]
 
+// 1. 
+	myArray.push('Egon', 'Venkman');
 
+// 2. 
+	myArray.splice(0, 1);
+
+// 3. 
+	myArray.unshift("Bob Marley");
+
+// 4. 
+	myArray.splice(4, 1)
+
+// 5.
+	myArray.reverse()
+	// The array was mutated the data came back as expected, but it was mutated. Mutating the data is changing it from what 
+	// it was originally defined as. The prototype thing didn't, but the
+	// way that I wrote it did.
+
+console.log(myArray);
 
 
 
