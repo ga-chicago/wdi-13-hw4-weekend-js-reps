@@ -140,7 +140,7 @@ for (let i = 12; i <= 4000; i += 3){
 
 for (let i = 1; i <= 100; i++) {
 	if (i % 2 === 0) {
-		console.log(i, '<--Is an even number' );
+		// console.log(i, '<--Is an even number' );
 	}
 }
 
@@ -152,28 +152,36 @@ for (let i = 1; i <= 100; i++) {
 
 for (let i = 0; i <= 100; i++)
 	if(i % 5 === 0) {
-		console.log(`I found a ${i}. High five!`);
+		// console.log(`I found a ${i}. High five!`);
 		// Add to the code from above to print out "I found a number. Three is a crowd" if the number is a multiple of three.
 	} else if (i % 3 === 0) {
-		console.log(`I found a ${i}. Three is a crowd`);
+		// console.log(`I found a ${i}. Three is a crowd`);
 	}
 
+// -------D. SAVINGS ACCOUNT
+
+// Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
+
+let bankAccount = [1,2,3,4,5,6,7,8,9,10];
+
+let sum = 0;
+
+for( let i = 0; i < bankAccount.length; i++) {
+	sum += bankAccount[i];
+}
+
+// console.log(`My bank account only has $${sum}`);
+
+
+// You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+let newBankAccount = 0;
+for (let i = 0; i <= 100; i++) {
+	newBankAccount += i * 2;
+}
+// console.log(`Hooray I got a bonus! Now i have $${newBankAccount} in my account!!`);
 
 
 
