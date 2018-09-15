@@ -196,15 +196,29 @@
 
 // console.log(quotes);
 
+
 //c. accessing elements
 
-const randomThings = [1, 10, 'Hello', true];
+// const randomThings = [1, 10, 'Hello', true];
 
-console.log(randomThings[0]); //<-- returns 1
+// console.log(randomThings[0]); //<-- returns 1
 
-randomThings[2] = 'world';
+// randomThings[2] = 'world';
 
-console.log(randomThings[2]); //<-- returns world
+// console.log(randomThings[2]); //<-- returns world
+
+
+//d. change values
+
+const ourClass = ['Salty', 'Zoom', 'Sardine', 'Slack', 'Github'];
+
+ourClass[2];
+
+ourClass[3] = 'Octocat';
+
+ourClass.push('Cloud City');
+
+
 
 
 
