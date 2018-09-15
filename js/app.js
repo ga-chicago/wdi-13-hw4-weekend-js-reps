@@ -163,14 +163,33 @@
 
 //e. multiples of 3 and 5
 
-let sum = 0; 
+// let sum = 0; 
 
-for (i = 0; i <= 1000; i++) {
-	if (i % 3 === 0 || i % 5 === 0) {
-		sum += i
-	} 
-}
+// for (i = 0; i <= 1000; i++) {
+// 	if (i % 3 === 0 || i % 5 === 0) {
+// 		sum += i
+// 	} 
+// }
 
-console.log(sum) //<-- returns 234168, which I think is right? 
+// console.log(sum) //<-- returns 234168, which I think is right? 
 
 //if I've done this one before, I completely forgot. Pretty nifty 
+
+
+//Part III: Arrays & Control Flow
+
+
+//a. talk about it
+
+// 1. They're called elements - and they can be strings, integers, etc. 
+
+// 2. no - they only appear in the order in which they are put in, unless
+// the array is otherwise instructed. 
+
+// 3. literally anything - items in an online store could easily be described as arrays, 
+// as could the store itself holding them. 
+
+
+
+
+
