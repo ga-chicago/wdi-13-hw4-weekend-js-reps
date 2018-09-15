@@ -190,6 +190,11 @@
 // as could the store itself holding them. 
 
 
+//b. 
+
+let quotes = ['The woods are lovely, dark and deep', 'But I have promises to keep', 'And miles to go before I sleep'];
+
+console.log(quotes);
 
 
 
