@@ -76,3 +76,12 @@
  // if (animal === 'cow') {
  // 	console.log('Mooooo!')
  // } else console.log("Hey! You're not a cow!")
+
+
+ //3. Driver's Ed
+
+ const driversAge = 19;  
+
+ if (driversAge >= 16) {
+ 	console.log('Here are the keys!')
+ }
