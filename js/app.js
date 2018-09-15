@@ -1,5 +1,6 @@
 console.log("works");
 
+//PART 1//
 //------------Variables & Datatypes--------------//
 
 // How do we assign a value to a variable?
@@ -78,4 +79,15 @@ const age = 18;
 		console.log('Here are the keys');
 	} else {
 		console.log("Ain't old nuff");
-	}
+	};
+
+//PART 2
+//-----------------LOOPS------------------//
+//-----------------The basics-------------//
+// Write a loop that will print out all the numbers from 0 to 10, inclusive.
+// Write a loop that will print out all the numbers from 10 up to and including 400.
+// Write a loop that will print out every third number starting with 12 and going no higher than 4000.
+
+for (i = 1; i <= 10; i++){
+	console.log(i);
+}
