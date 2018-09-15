@@ -166,3 +166,16 @@ for (i = 1; i <= 1000; i++){
 	sum += i;
 }
 console.log(sum);
+
+//PART 3
+//-----------------ARRAYS & CONTROL FLOW------------------//
+//-----------------Talk about it-------------//
+// What are the things in an array called?
+// -- elements 
+// Do Arrays guarantee those things will be in order?
+//-- yes
+// What real-life thing could you model with an array?
+// -- a list of people, a bunch of numbers, a combination of strings, numbers and booleans. 
+//-----------------Easy does it-------------//
+// Create an array that contains three quotes and store it in a variable called quotes.
+//--const quotes = ["quote1", "quote2", "quote3"];
