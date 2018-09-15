@@ -100,8 +100,22 @@ console.log("works");
 //print out 1-100
 //check if even
 
-for (let i = 1;  i<= 100; i++){
-	if(i % 2 === 0){
-	console.log(i + "<- is even");
-}
+// for (let i = 1;  i<= 100; i++){
+// 	if(i % 2 === 0){
+// 	console.log(i + "<- is even");
+// }
+// }
+
+//--------------Give me five-------------//
+
+// For the numbers 0 - 100, print out "I found a number. High five!" if the number is a multiple of five.
+//print 1-100
+for (let i = 1; i <= 100; i++){
+	//if I is divisble by 5 with no remainder
+	if (i % 5 === 0){
+		//consolelog result
+		console.log("i found a " + i + " high five!");
+	} else if (i % 3 === 0) {
+		console.log("i found a " + i + " three is a crowd");
+	}
 }
