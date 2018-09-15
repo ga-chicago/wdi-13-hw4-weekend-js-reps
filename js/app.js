@@ -37,22 +37,22 @@ console.log("works");
 
 //------------Booleans--------------//
 // Using the provided variable definitions, replace the blanks so that all log statements print true in the console. Answers should be all be valid JS syntax and not weird things that don't make sense but happen to print true to the console.
-  const a = 4;
-  const b = 53;
-  const c = 57;
-  const d = 16;
-  const e = 'Kevin';
+  // const a = 4;
+  // const b = 53;
+  // const c = 57;
+  // const d = 16;
+  // const e = 'Kevin';
 
-  console.log(a < b);
-  console.log(c > d);
-  console.log('Name' == 'Name');
-  console.log(true != false);
-  console.log(false == false == false == false == false == false == true);
-  console.log(false == false);
-  console.log(e == 'Kevin');
-  console.log(a + b == c);
-  console.log(a * a == d);
-  console.log(48 == '48');
+  // console.log(a < b);
+  // console.log(c > d);
+  // console.log('Name' == 'Name');
+  // console.log(true != false);
+  // console.log(false == false == false == false == false == false == true);
+  // console.log(false == false);
+  // console.log(e == 'Kevin');
+  // console.log(a + b == c);
+  // console.log(a * a == d);
+  // console.log(48 == '48');
 
 
 
@@ -62,24 +62,24 @@ console.log("works");
 // Write code that will print out "mooooo" if the it is equal to cow.
 // Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
 // Commit.
-const animal = "cat";
-if (animal == "cow") {
-	console.log("mooooo");
-} else {
-	console.log("Hey! you're not a cow!");
-}
+// const animal = "cat";
+// if (animal == "cow") {
+// 	console.log("mooooo");
+// } else {
+// 	console.log("Hey! you're not a cow!");
+// }
 
 //------------------Driver's Ed----------------//
 // Make a variable that will hold a person's age. Be semantic.
 // Write code that will print out "Here are the keys", if the age is 16 years or older.
 // If the age is younger than 16, a message should print "Sorry, you're too young."
 
-const age = 18;
-	if (age > 16){
-		console.log('Here are the keys');
-	} else {
-		console.log("Ain't old nuff");
-	};
+// const age = 18;
+// 	if (age > 16){
+// 		console.log('Here are the keys');
+// 	} else {
+// 		console.log("Ain't old nuff");
+// 	};
 
 //PART 2
 //-----------------LOOPS------------------//
@@ -88,6 +88,20 @@ const age = 18;
 // Write a loop that will print out all the numbers from 10 up to and including 400.
 // Write a loop that will print out every third number starting with 12 and going no higher than 4000.
 
-for (i = 1; i <= 10; i++){
-	console.log(i);
+// for (i = 1; i <= 10; i++){
+// 	console.log(i);
+// }
+
+//--------------Get even -----------------//
+
+// Print out the even numbers that are within the range of 1 - 100.
+// Adjust your code to add a message next to even numbers only that says: "<-- is an even number".
+
+//print out 1-100
+//check if even
+
+for (let i = 1;  i<= 100; i++){
+	if(i % 2 === 0){
+	console.log(i + "<- is even");
+}
 }
