@@ -150,8 +150,19 @@ console.log("works");
 //ugh const n let, this one worked like right away
 
 //You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+// let sum = 0;
+// for (i = 1; i <= 100; i++){
+// 	sum += i * 2;
+// }
+// console.log(sum);
+
+//totally worked like i wanted it to. sweeeet.
+
+//-----------------Multiples of 3 and 5-------------------------//
+// Find the sum of all the multiples of 3 or 5 below 1000. If a previous question you've done has helpful bits of code in it that partially solves this problem, look back at them.
 let sum = 0;
-for (i = 1; i <= 100; i++){
-	sum += i * 2;
+for (i = 1; i <= 1000; i++){
+	if (i % 3 === 0 && i % 5 === 0)
+	sum += i;
 }
 console.log(sum);
