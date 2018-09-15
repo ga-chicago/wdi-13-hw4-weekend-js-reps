@@ -150,10 +150,16 @@ console.log(bankAccount)
 //	  the objects within the array will remain in the 
 //	  order that you put them in.
 
-// 3. You can model anything within an array. You could make
-//	  one that has a dog object in it that has a name, color,
-//	  breed, other characteristics, and even give it a function
-//	  to bark or wag its tail or anything really.
+// 3. You can model a grocery list or any other list
+//	  that you'd like.
+
+
+
+
+
+
+
+
 
 
 
