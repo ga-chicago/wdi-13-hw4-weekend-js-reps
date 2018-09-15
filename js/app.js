@@ -168,6 +168,15 @@ const randomThings = [1, 10, "Hello", true];
 // 3. It worked :)
 	  // console.log(randomThings[2]);
 
+// D. Change Values
+
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+
+// 1. ourClass[2]; 
+
+// 2. ourClass[4] = "Octocat"
+
+// 3. ourClass.push("Cloud City")
 
 
 
