@@ -110,12 +110,48 @@ console.log("works");
 
 // For the numbers 0 - 100, print out "I found a number. High five!" if the number is a multiple of five.
 //print 1-100
-for (let i = 1; i <= 100; i++){
-	//if I is divisble by 5 with no remainder
-	if (i % 5 === 0){
-		//consolelog result
-		console.log("i found a " + i + " high five!");
-	} else if (i % 3 === 0) {
-		console.log("i found a " + i + " three is a crowd");
-	}
+// for (let i = 1; i <= 100; i++){
+// 	//if I is divisble by 5 with no remainder
+// 	if (i % 5 === 0){
+// 		//consolelog result
+// 		console.log("i found a " + i + " high five!");
+// 	} else if (i % 3 === 0) {
+// 		console.log("i found a " + i + " three is a crowd");
+// 	}
+
+
+//-----------------_Savings account --------------//
+// Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
+// const bankAccount = [sum];
+// //make an empty variable for bank account, which will get populated from the sum variable, which will get populated from the for loop. 
+// //for loop , console logs 1-10, 
+// //i just need to figure out how to push  the numbers it console logs into 
+// const addSum = (sum) => {
+// 	for (let i=1;i<=10;i++) {
+// 		const sum = 0;
+// 		// bankAccount = sum += i;
+// 		// const sum = 0;
+// 		// sum += i;
+// 		// console.log(sum);
+// 		// i += sum; <--figure out how to put the looping value and push it into bankAccount
+// 		// console.log(sum);
+// 	}
+// }
+// console.log(bankAccount);
+
+//attempt 2
+// let sum = 0;
+// for (i = 1; i <= 10; i++){
+// 	//was resulting in 45, then i added a = and it worked. wasn't this the 1 digit whatever you were talking about? when its off by one digit or something
+
+// 	sum += i;
+// }
+// console.log(sum);
+//ugh const n let, this one worked like right away
+
+//You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+let sum = 0;
+for (i = 1; i <= 100; i++){
+	sum += i * 2;
 }
+console.log(sum);
