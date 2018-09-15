@@ -58,4 +58,13 @@ sayHello();
   // Do all evaluate to true?
   // YES
 
+// Part D.
+
+const animal = "cow";
+// test with animal = "chicken"
+if(animal === "cow") {
+	console.log("MOOOOOOO");
+} else {
+	console.log("Hey, you're not a cow!!");
+}
 
