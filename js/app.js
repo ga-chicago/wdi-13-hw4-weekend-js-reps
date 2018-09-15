@@ -153,9 +153,21 @@ console.log(bankAccount)
 // 3. You can model a grocery list or any other list
 //	  that you'd like.
 
-//	Easy Does It
+//	B. Easy Does It
 
-const quotes = ["We are going to need a bigger boat", "Do or do not. There is no try.", "GET TO THE CHOPPA!"]
+const quotes = ["We are going to need a bigger boat", "Do or do not. There is no try.", "GET TO THE CHOPPA!"];
+
+// C. Accessing Elements
+
+const randomThings = [1, 10, "Hello", true];
+
+// 1. You would access the first element using randomThings[0];
+
+// 2. randomThings[2] = "World"
+
+// 3. It worked :)
+	  // console.log(randomThings[2]);
+
 
 
 
