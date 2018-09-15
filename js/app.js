@@ -91,9 +91,9 @@ console.log('Hello, my name is ' + yourName);
 
   const animal = 'cow';
   if('cow'== animal) {
-  	console.log('mooooooo');
+  	// console.log('mooooooo');
   } else {
-  	console.log("Hey! You're not a cow");
+  	// console.log("Hey! You're not a cow");
   }
 
 
@@ -103,9 +103,9 @@ console.log('Hello, my name is ' + yourName);
 const personAge = 14;
 // Write code that will print out "Here are the keys", if the age is 16 years or older.
 if (personAge >= 16) {
-	console.log('Here are the keys');
+	// console.log('Here are the keys');
 } else {
-	console.log("Sorry you're too young.")
+	// console.log("Sorry you're too young.")
 }
 // If the age is younger than 16, a message should print "Sorry, you're too young.
 
@@ -190,6 +190,7 @@ for (let i = 0; i <= 100; i++) {
 //I've already done it!
 
 //----------III Arrays & Control flow
+//------Talk About it
 
 // A. What are the things in an array called?
 
@@ -204,10 +205,16 @@ for (let i = 0; i <= 100; i++) {
 //When you would need to hold a list of usernames together
 //for a website perhaps.
 
+//-----Easy does it
+
+//A. Create an array that contains three quotes and store it in a variable called quotes.
 
 
+let array = ['Love for all, Hatred for none', 'Every moment is a fresh beggining', 'Die with memories, not dreams'];
 
+let quotes = array;
 
+// console.log(quotes);
 
 
 
