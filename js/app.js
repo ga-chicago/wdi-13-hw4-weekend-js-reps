@@ -136,6 +136,12 @@ for(let i = 1; i <= 100; i++){
 }
 console.log(bankAccount)
 
+// Multiples of 3 and 5
+
+// Well played. I read the problem, all the way through. Glad I don't have to do it again :)
+
+
+
 
 
 
