@@ -111,6 +111,21 @@ for(let i = 0; i <= 100; i++) {
 	}
 }
 
+let bank_account = 0;
+for(let i = 1; i <= 10; i++) {
+	bank_account += i;
+}
+// check work ==> 55
+console.log(bank_account);
+
+// sum of all numbers 1-100 multiplied by 2 into bank_account
+bank_account = 0;
+for(let i = 1; i <= 100; i++) {
+	bank_account = (bank_account + i*2);
+}
+
+// check work ==> 10,100
+console.log(bank_account);
 
 
 
