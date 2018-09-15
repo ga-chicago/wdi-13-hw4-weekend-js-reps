@@ -185,7 +185,24 @@ for (let i = 0; i <= 100; i++) {
 
 
 
+//---------E. Multiples of 3 and 5
 
+//I've already done it!
+
+//----------III Arrays & Control flow
+
+// A. What are the things in an array called?
+
+//Element
+
+// B. Do Arrays guarantee those things will be in order?
+
+//Yes
+
+//C. What real-life thing could you model with an array?
+
+//When you would need to hold a list of usernames together
+//for a website perhaps.
 
 
 
