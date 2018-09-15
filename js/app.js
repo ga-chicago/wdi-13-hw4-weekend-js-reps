@@ -241,6 +241,23 @@ randomThings[2] = "World";
 // console.log(randomThings);
 
 
+//---------Changing Values
+
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+
+//What would you write to access the 3rd element of the array?
+
+ourClass[2];
+
+//Change the value of "Github" to "Octocat"
+
+ourClass[4] = "Octocat"
+
+//Add a new element, "Cloud City" to the array.
+
+ourClass.push("Cloud City")
+
+// console.log(ourClass);
 
 
 
