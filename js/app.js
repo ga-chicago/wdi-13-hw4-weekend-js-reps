@@ -133,10 +133,29 @@
 //you could just say if (i % 5 === 0 && i != 0) or something. 
 
 
-for (let i = 1; i <= 100; i++) {
-	if (i % 5 === 0) {
-		console.log(`I found a ${i}! High five!`)
-	} if (i % 3 === 0) {
-		console.log(`I found a ${i}! Three is a crowd`)
-	}
+// for (let i = 1; i <= 100; i++) {
+// 	if (i % 5 === 0) {
+// 		console.log(`I found a ${i}! High five!`)
+// 	} if (i % 3 === 0) {
+// 		console.log(`I found a ${i}! Three is a crowd`)
+// 	}
+// };
+
+
+//d. savings account
+
+// let bankAccount = 0;
+
+// for (i = 1; i <= 10; i++) {
+// 	bankAccount += i
+// };
+
+// console.log(bankAccount);
+
+let bankAccount = 0;
+
+for (i = 1; i <= 100; i++) {
+	bankAccount += (i * 2)
 };
+
+console.log(bankAccount);
