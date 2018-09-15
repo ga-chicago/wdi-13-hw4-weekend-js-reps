@@ -153,6 +153,9 @@ console.log(bankAccount)
 // 3. You can model a grocery list or any other list
 //	  that you'd like.
 
+//	Easy Does It
+
+const quotes = ["We are going to need a bigger boat", "Do or do not. There is no try.", "GET TO THE CHOPPA!"]
 
 
 
