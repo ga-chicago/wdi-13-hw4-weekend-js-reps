@@ -140,6 +140,21 @@ console.log(bankAccount)
 
 // Well played. I read the problem, all the way through. Glad I don't have to do it again :)
 
+// Array and Control Flow
+
+// A. Talk about it
+
+// 1. Array Objects
+
+// 2. As long as you don't mutate the aray with functions
+//	  the objects within the array will remain in the 
+//	  order that you put them in.
+
+// 3. You can model anything within an array. You could make
+//	  one that has a dog object in it that has a name, color,
+//	  breed, other characteristics, and even give it a function
+//	  to bark or wag its tail or anything really.
+
 
 
 
