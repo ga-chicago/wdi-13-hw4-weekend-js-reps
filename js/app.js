@@ -190,11 +190,21 @@
 // as could the store itself holding them. 
 
 
-//b. 
+//b. easy does it
 
-let quotes = ['The woods are lovely, dark and deep', 'But I have promises to keep', 'And miles to go before I sleep'];
+// let quotes = ['The woods are lovely, dark and deep', 'But I have promises to keep', 'And miles to go before I sleep'];
 
-console.log(quotes);
+// console.log(quotes);
+
+//c. accessing elements
+
+const randomThings = [1, 10, 'Hello', true];
+
+console.log(randomThings[0]); //<-- returns 1
+
+randomThings[2] = 'world';
+
+console.log(randomThings[2]); //<-- returns world
 
 
 
