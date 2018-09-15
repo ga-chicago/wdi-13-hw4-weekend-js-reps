@@ -160,12 +160,12 @@ console.log("works");
 
 //-----------------Multiples of 3 and 5-------------------------//
 // Find the sum of all the multiples of 3 or 5 below 1000. If a previous question you've done has helpful bits of code in it that partially solves this problem, look back at them.
-let sum = 0;
-for (i = 1; i <= 1000; i++){
-	if (i % 3 === 0 && i % 5 === 0)
-	sum += i;
-}
-console.log(sum);
+// let sum = 0;
+// for (i = 1; i <= 1000; i++){
+// 	if (i % 3 === 0 && i % 5 === 0)
+// 	sum += i;
+// }
+// console.log(sum);
 
 //PART 3
 //-----------------ARRAYS & CONTROL FLOW------------------//
@@ -179,3 +179,12 @@ console.log(sum);
 //-----------------Easy does it-------------//
 // Create an array that contains three quotes and store it in a variable called quotes.
 //--const quotes = ["quote1", "quote2", "quote3"];
+//-----------------Accessing elements------------------//
+// Given the following array 
+const randomThings = [1, 10, "Hello", true];
+// How do you access the 1st element in the array?
+randomThings[0];
+// Change the value of "Hello" to "World".
+randomThings[2] = "World";
+// Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
+console.log(randomThings);
