@@ -99,3 +99,32 @@ for(let i = 1; i <= 100; i++) {
 	};
 }
 
+// Part C.
+// multiples of five for 0-100. print "I found a i. High five!"
+for(let i = 0; i <= 100; i++) {
+	if(i % 5 === 0) {
+		console.log(`I found a ${i}. High five!`);
+	}
+	// add code for multiples of three with message "I found a i. Three is a crowd"
+	else if(i % 3 === 0) {
+		console.log(`I found a ${i}. Three is a crowd.`);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
