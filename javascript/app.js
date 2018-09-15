@@ -66,5 +66,13 @@ if(animal === "cow") {
 	console.log("MOOOOOOO");
 } else {
 	console.log("Hey, you're not a cow!!");
-}
+};
+
+const driverAge = 17;
+// test with age under 16
+if(driverAge >= 16) {
+	console.log("Here are the keys. Drive safe!");
+} else {
+	console.log("Sorry, you're too young to drive. Some day, my friend.");
+};
 
