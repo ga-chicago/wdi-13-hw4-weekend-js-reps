@@ -78,10 +78,33 @@
  // } else console.log("Hey! You're not a cow!")
 
 
- //3. Driver's Ed
+ // //3. Driver's Ed
 
- const driversAge = 19;  
+ // const driversAge = 19;  
 
- if (driversAge >= 16) {
- 	console.log('Here are the keys!')
- }
+ // if (driversAge >= 16) {
+ // 	console.log('Here are the keys!')
+ // };
+
+
+// Part II: Loops
+
+
+//a. 
+
+// for (let i = 0; i <= 10; i++) {
+// 	console.log(i)
+// };
+
+// for (let i = 10; i <= 400; i++) {
+// 	console.log(i)
+// };
+
+// for (let i = 12; i <= 4000; i += 3) {
+// 	console.log(i)
+// };
+
+
+//b. 
+
+
