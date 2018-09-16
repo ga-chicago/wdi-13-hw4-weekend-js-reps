@@ -311,6 +311,19 @@
 	user.purchased.push("peace of mind");
 	user.purchased.push("Merino jodhpurs");
 	console.log(user.purchased[2]);
+	//E. 
+	user.friend = {
+		name: "Biff",
+		location: "Arizona",
+		age: 16,
+		purchased: []
+	}
+	console.log(user.friend.name);
+	console.log(user.friend.location);
+	user.friend.age = 55;
+	user.friend.purchased.push("The One Ring");
+	user.friend.purchased.push("A latte");
+	console.log(user.friend.purchased[1]);
 
 
 
