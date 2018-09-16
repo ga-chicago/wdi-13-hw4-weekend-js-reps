@@ -284,6 +284,9 @@ console.log("Thom is looking fierce in a " + thomsCloset[0][0] + ", " + thomsClo
 
 thomsCloset[1][2] = "Footie Pajamas"
 
+// printGreeting
+
+// Again, well played!
 
 
 
