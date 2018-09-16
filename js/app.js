@@ -340,9 +340,19 @@ const getMultLengths = (str) => {
 
 console.log(getMultLengths(["Hey", "Yeah", "Super", "Totally"]));
 
+// printLongestWord
 
+const findLongestWord = (arrayOne) => {
+	let longestWord = '';
+	arrayOne.forEach(function(words) {
+		if(words.length > longestWord.length) {
+			longestWord = words
+		}
+	});
+	return longestWord;
+}
 
-
+console.log(findLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]))
 
 
 
