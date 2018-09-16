@@ -256,7 +256,10 @@
 		})
 		return array[0];
 	}
-	
+	//i. transmogrify
+	const transmogrify = (num1,num2,num3) => {
+		return (num1*num2)**num3;
+	}
 
 
 
