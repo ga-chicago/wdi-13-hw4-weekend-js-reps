@@ -362,4 +362,19 @@ const transmogrify = (firstNum, secondNum, thirdNum) => {
 
 console.log(transmogrify(5, 3, 2));
 
+// reverseWordOrder
+
+// This is the best I could get to work :( 
+// I tried a ton of different things, but I can't get the words to
+// to spell out the right way if the words are all in one array.
+	
+const reverseWordOrder = (newString) => {
+	let reversedString = "";
+	for(let i = newString.length - 1; i >= 0; i--) {
+		reversedString += newString[i];	
+	}
+	return reversedString;
+}
+
+console.log(reverseWordOrder("Ishmael me Call"));
 
