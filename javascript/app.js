@@ -443,6 +443,7 @@ const calculateCube = (number) => {
 console.log(calculateCube(5));
 // 🔴 Commit.
 
+
 // D. isVowel
 // Write a function isVowel that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case.
 // console.log(isVowel("a"));
@@ -461,68 +462,59 @@ const isVowel = (string) => {
 console.log(isVowel("a"));
 // 🔴 Commit.
 
-// E. getTwoLengths
-// Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
 
+// E. getTwoLengths
+
+// Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
 // console.log(getTwoLengths("Hank", "Hippopopalous"));
 // => [4, 13]
-
+const getTwoLengths = (string1, string2)  => {
+	return [string1.length, string2.length];
+}
+console.log(getTwoLengths("Hank", "Hippopopalous"));
 // 🔴 Commit.
+
 
 // F. getMultipleLengths
 // Write a function getMultipleLengths that accepts a single parameter as an argument: an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
-
 // console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
 // => [5, 4, 2, 2, 4]
-
 // 🔴 Commit.
+
 
 // G. maxOfThree
 // Define a function maxOfThree that takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned.
-
 // console.log(maxOfThree(6, 9, 1));
 // => 9
-
 // 🔴 Commit.
+
 
 // H. printLongestWord
 // Write a function printLongestWord that accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
-
 // console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 // => "Peanutbutter"
-
 // 🔴 Commit.
+
 
 // I. transmogrify
 // Write a Javascript function called transmogrify. This function should accept three arguments, which you can assume will be numbers. Your function should return the "transmogrified" result.
-
 // The transmogrified result of three numbers is the product of the first two numbers, raised to the power of the third number.
-
 // For example, the transmogrified result of 5, 3, and 2 is (5 times 3) to the power of 2 is 225.
-
 // console.log(transmogrify(5, 3, 2));
 // => 225
-
 // 🔴 Commit.
 
 // J. reverseWordOrder v2
 // Without using .split(), .reverse(), or .join(), write a function reverseWordOrder that accepts a single argument, a string. The function should return a string with the order of the words reversed. Don't worry about punctuation.
-
 // See if you can do it without googling.
-
 // Remember: Jim showed you today that you can index directly into a string:
-
 // "hello world"[6]
 // => "w"
-
 // That and basic loops and variables and arrays are all you need to solve this without the Array methods.
-
 // console.log(reverseWordOrder("Ishmael me Call"));
 // => "Call me Ishmael"
-
 // console.log(reverseWordOrder("I use Lâncome on my comb"));
 // => "comb my on Lâncome use I"
-
 // 🔴 Commit.
 
 // K. Get down and dirty with Math.random()
@@ -561,15 +553,12 @@ console.log(isVowel("a"));
 
 // E. Object-within-object
 // Remember that you can add an object to an existing object in the same way that you can add any new property/value pair.
-
 // If we want to give our user a friend with a name and age, we could write:
-
 // user.friend = {
 //     name: "Grace Hopper",
 //     age: 85
 // }
 // When we console.log user, we would see the friend object added to our user object.
-
 // Write a friend object into your user object and give the friend a name, age, location, and purchased array (empty for now)
 // Console.log just the friend's name
 // Console.log just the friend's location
@@ -598,12 +587,10 @@ console.log(isVowel("a"));
 // Cat Combinator
 // 1. Mama cat
 // Define an object called cat1 that contains the following properties:
-
 // name
 // breed
 // age (a number)
 // console.log the cat's age
-
 // console.log the cat's breed
 
 // 2. Papa cat
