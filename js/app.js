@@ -302,9 +302,20 @@ const calcCube = (num) => {
 }
 console.log(calcCube(5))
 
+//isVowel
 
+const isAVowel = (letter) => {
+	lowercase = letter.toLowerCase()
+	if(lowercase === 'a' || lowercase === 'e' || lowercase === 'i' || lowercase === 'o' || lowercase === 'u') {
+		return true;
+	} else if (lowercase === 'y') {
+		return 'I mean kinda...'
+	} else {
+		return false;
+	}
+}
 
-
+console.log(isAVowel('Y'))
 
 
 
