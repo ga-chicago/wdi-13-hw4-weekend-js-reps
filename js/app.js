@@ -301,6 +301,9 @@
 		age: 14,
 		purchased: []
 	}
+	//B. Update user
+	user.email = "Brayden.Smith@gmail.com";
+	user.age++;
 
 
 
