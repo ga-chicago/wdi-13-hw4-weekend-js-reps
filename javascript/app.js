@@ -483,7 +483,7 @@ const getMultipleLengths = (arrayOfStrings) => {
 	let arrayOfStringsLengths = [];
 	// Loop through array of strings
 	for (let i = 0; i < arrayOfStrings.length; i++) {
-		// Get the length of the string and push it into arrayOfStringsLengths
+		// Get the length of each string and push it into arrayOfStringsLengths
 		arrayOfStringsLengths.push(arrayOfStrings[i].length);
 	}
 	return arrayOfStringsLengths;
@@ -514,8 +514,25 @@ console.log(maxOfThree(6, 9, 1));
 
 
 // H. printLongestWord
+
 // Write a function printLongestWord that accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
-// console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+// Create new array arrayOfStringsLengths to store lengths outside of function
+let arrayOfStringsLengths = [];
+
+const printLongestWord = (arrayOfStrings) => {
+	// Loop through array of strings
+	for (let i = 0; i < arrayOfStrings.length; i++) {
+		// Get the length of each string and push it into arrayOfStringsLengths
+		arrayOfStringsLengths.push(arrayOfStrings[i].length);
+	}
+	// Find the largest number in arrayOfStringsLengths and store it in the variable longestWordLength
+	 const longestWordLength = Math.max(...arrayOfStringsLengths);
+	 // Find the index of the number with that value and store it in the variable longestWordIndex
+	 const longestWordIndex = arrayOfStringsLengths.indexOf(longestWordLength);
+	 // return word in arrayOfStrings with that same index
+	 return arrayOfStrings[longestWordIndex];
+}
+console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 // => "Peanutbutter"
 // 🔴 Commit.
 
