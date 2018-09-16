@@ -110,7 +110,7 @@ for(let i = 0; i <= 100; i++) {
 		console.log(`I found a ${i}. Three is a crowd.`);
 	}
 }
-
+// Part D.
 let bank_account = 0;
 for(let i = 1; i <= 10; i++) {
 	bank_account += i;
@@ -126,6 +126,9 @@ for(let i = 1; i <= 100; i++) {
 
 // check work ==> 10,100
 console.log(bank_account);
+
+// Part E.
+// I've already done this problem
 
 
 
