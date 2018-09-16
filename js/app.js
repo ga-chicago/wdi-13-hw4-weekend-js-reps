@@ -209,7 +209,11 @@
 //IV. Functions
 	//A. printGreeting
 	//skipped
-	//B. 
+	//B. printCool
+	const printCool = (name) => {
+		return name + " is cool";
+	}
+	console.log(printCool("Jeff"));
 
 
 
