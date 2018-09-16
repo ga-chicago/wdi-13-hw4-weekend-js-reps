@@ -228,6 +228,7 @@ console.log(`${sum} <-- Sum of all the multiples of 3 or 5 below 1000`);
 // // III. Arrays & Control flow
 
 // // A. Talk about it:
+
 // // What are the things in an array called?
 // Arrays are objects that contain items called elements. Each element can be accessed through its index, its value can be any JavaScript value.
 // // Do Arrays guarantee those things will be in order?
@@ -621,7 +622,9 @@ console.log(getRandomElement(quotes));
 
 
 // V. Objects
+
 // Let's set up an object data structure. Let's say we have a website that sells products, and we have a user of our website, and we want to store that user's data. The object data structure is a good way to organize the data from our user.
+
 
 // A. Make a user object
 
@@ -635,9 +638,14 @@ const user = {
 };
 // 🔴 Commit.
 
+
 // B. Update the user
+
 // Our user has changed his or her email address. Without changing the original user object, update the email value to a new email address.
+user.email = "he.llbeback91@aol.com";
 // Our user has had a birthday! Without changing the original user object, increment the age value using the postfix operator. Hint: age++
+user.age++;
+console.log(user);
 // 🔴 Commit.
 
 // C. Adding keys and values
