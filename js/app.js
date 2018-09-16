@@ -288,6 +288,12 @@ thomsCloset[1][2] = "Footie Pajamas"
 
 // Again, well played!
 
+// printCool
+
+const printCool = (name) => {
+	console.log(name + " is cool");
+}
+printCool('Chris')
 
 
 
