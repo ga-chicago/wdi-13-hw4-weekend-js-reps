@@ -159,7 +159,53 @@
 		} else {
 			console.log("monkey");
 		}
+	//H. What's in Your Closet?
+		const kristynsCloset = [
+		  "left shoe",
+		  "cowboy boots",
+		  "right sock",
+		  "GA hoodie",
+		  "green pants",
+		  "yellow knit hat",
+		  "marshmallow peeps"
+		];
 
+		// Thom's closet is more complicated. Check out this nested data structure!!
+		const thomsCloset = [
+		  [
+		    // These are Thom's shirts
+		    "grey button-up",
+		    "dark grey button-up",
+		    "light blue button-up",
+		    "blue button-up",
+		  ],[
+		    // These are Thom's pants
+		    "grey jeans",
+		    "jeans",
+		    "PJs"
+		  ],[
+		    // Thom's accessories
+		    "wool mittens",
+		    "wool scarf",
+		    "raybans"
+		  ]
+		];
+		//1.
+		console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!");
+		//2.
+		kristynsCloset.splice(6,0,"raybans");
+		//3. 
+		kristynsCloset[5] = "stained knit hat";
+		//4.
+		console.log(thomsCloset[0][0]);
+		//5.
+		console.log(thomsCloset[1][1]);
+		//6.
+		console.log(thomsCloset[2][2]);
+		//7.
+		console.log("Thom is looking fierce in a " + thomsCloset[0][0] + ", " + thomsCloset[1][1] + " and " + thomsCloset[2][2] + "!");
+		//8.
+		thomsCloset[1][2] = "Footie Pajamas";
 
 
 
