@@ -347,22 +347,34 @@
 
 //d. isVowel
 
-const isVowel = (character) => {
-	let lcCharacter = character.toLowerCase();
-	if (lcCharacter === 'a' || lcCharacter === 'e' || lcCharacter === 'i' || lcCharacter === 'o' || lcCharacter === 'u') {
-		console.log(true);
-	} else {
-		console.log(false);
-	}
+// const isVowel = (character) => {
+// 	let lcCharacter = character.toLowerCase();
+// 	if (lcCharacter === 'a' || lcCharacter === 'e' || lcCharacter === 'i' || lcCharacter === 'o' || lcCharacter === 'u') {
+// 		console.log(true);
+// 	} else {
+// 		console.log(false);
+// 	}
+// };
+
+// isVowel('w');
+// isVowel('e');
+// isVowel('j');
+// isVowel('u');
+
+
+//e. 
+
+const getTwoLengths = (string1, string2) => {
+	let length1 = string1.length; 
+	let length2 = string2.length;
+	let lengthArray = [length1, length2]
+	console.log(lengthArray);
 };
 
-isVowel('w');
-isVowel('e');
-isVowel('j');
-isVowel('u');
 
-
-
+getTwoLengths('banana', 'Germany');
+getTwoLengths('Jemima', 'applesauce')
+getTwoLengths('latke', 'pantomime');
 
 
 
