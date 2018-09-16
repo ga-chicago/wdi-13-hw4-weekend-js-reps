@@ -478,8 +478,6 @@ console.log(getTwoLengths("Hank", "Hippopopalous"));
 // F. getMultipleLengths
 
 // Write a function getMultipleLengths that accepts a single parameter as an argument: an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
-// console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
-// => [5, 4, 2, 2, 4]
 const getMultipleLengths = (arrayOfStrings) => {
 	// Create new array arrayOfStringsLengths to store lengths outside of for loop
 	let arrayOfStringsLengths = [];
@@ -491,12 +489,26 @@ const getMultipleLengths = (arrayOfStrings) => {
 	return arrayOfStringsLengths;
 }
 console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+// => [5, 4, 2, 2, 4]
 // 🔴 Commit.
 
 
 // G. maxOfThree
+
 // Define a function maxOfThree that takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned.
-// console.log(maxOfThree(6, 9, 1));
+const maxOfThree = (num1, num2, num3) => {
+	// Easy way
+	// return Math.max(num1, num2, num3);
+	// No Google way:
+	if (num1 >= num2 && num1 >= num3) {
+		return num1;
+	} else if (num2 >= num1 && num2 >= num3) {
+		return num2;
+	} else {
+		return num3;
+	}
+}
+console.log(maxOfThree(6, 9, 1));
 // => 9
 // 🔴 Commit.
 
