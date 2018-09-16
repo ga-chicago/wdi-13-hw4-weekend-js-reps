@@ -286,12 +286,29 @@ console.log(ourClass);
 
 
 // E. Mix It Up
-// Given the following array: const myArray = [5, 10, 500, 20]
+
+// Given the following array: 
+const myArray = [5, 10, 500, 20];
 // Add the string "Egon" to the end of the array. Add another string of your choice to the end of the array.
+myArray.push("Egon");
+myArray.push("Dolarhyde");
+// console.log(myArray);
 // Remove the 5 from the beginning of the array.
-// Add the string "Bob Marley" to the beginning of the array.
+myArray.splice(0, 1)
+// vv Or this can be used, but I find it less precise...
+// myArray.shift();
+console.log(myArray);
+// Add the string "Bob Marley" to the beginning of the array.   
+myArray.unshift("Bob Marley");
+console.log(myArray);
 // Remove the string of your choise from the end of the array.
+myArray.splice(myArray.length - 1, 1);
+console.log(myArray);
 // Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method return anything?
+myArray.reverse();
+// The array has indeed been mutated. That means that the value of the variable has been reassigned.
+// The .reverse() method returns the reversed array, meaning myArray.reverse() has the value of the reversed array and can be used as such in the future.
+console.log(myArray);
 // 🔴 Commit.
 
 
