@@ -150,6 +150,15 @@
 		} else if(biggieSmalls >= 144) {
 			console.log("big number");
 		}
+	//G. Monkey in the Middle
+		const monkey = 8;
+		if(monkey < 5) {
+			console.log("little number");
+		} else if(monkey > 10) {
+			console.log("big number");
+		} else {
+			console.log("monkey");
+		}
 
 
 
