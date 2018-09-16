@@ -393,23 +393,37 @@ thomsCloset[2][0];
 
 // Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
 
-console.log("Thom is looking fierce in a " + thomsCloset[0][0] + ", " + thomsCloset[1][1] + " and " + thomsCloset[2][0] + "!" )
+// console.log("Thom is looking fierce in a " + thomsCloset[0][0] + ", " + thomsCloset[1][1] + " and " + thomsCloset[2][0] + "!" )
 
 // Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
 
 thomsCloset[1][2] = 'Footie Pajamas';
-console.log("Thom is wearing some very expensive and stylish " + thomsCloset[1][2] + " this winter.");
+// console.log("Thom is wearing some very expensive and stylish " + thomsCloset[1][2] + " this winter.");
 
 
+//-------------Functions
+
+//B. printCool
+
+// Write a function printCool that accepts one parameter, name as an argument. The function should print the name and a message saying that that person is cool.
+
+const printCool = (name) => {
+console.log(`${name} is cool` )
+
+}
+
+printCool("Captain Reynolds")
 
 
+//C. calculateCube
 
+// Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
 
+const calculateCube = (cube) => {
+console.log(cube);
+}
 
-
-
-
-
+calculateCube(5*5*5);
 
 
 
