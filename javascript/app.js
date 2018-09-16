@@ -175,22 +175,34 @@ for (let i = 1; i <= 100; i++) {
 // I found a 10. High five!
 for (let i = 0; i <= 100; i++) {
 	if (i % 15 === 0) {
-		console.log(i + " <-- I found a number. High five!");
-		console.log(i + " <-- I found a number. Three is a crowd");
+		// console.log(i + " <-- I found a number. High five!");
+		// console.log(i + " <-- I found a number. Three is a crowd");
 	} else if (i % 5 === 0) {
-		console.log(i + " <-- I found a number. High five!");
+		// console.log(i + " <-- I found a number. High five!");
 	} else if (i % 3 === 0) {
-		console.log(i + " <-- I found a number. Three is a crowd");
+		// console.log(i + " <-- I found a number. Three is a crowd");
 	}
 }
 // 🔴 Commit.
 
 
 // D. Savings account
+
 // Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
-// Check your work! Your banck_account should have $55 in it.
+// Check your work! Your bank_account should have $55 in it.
 // You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
-// Check your work! Your banck_account should have $10,100 in it.
+// Check your work! Your bank_account should have $10,100 in it.
+let bank_account = 0;
+for (let i = 1; i <= 10; i++) {
+	bank_account = bank_account + i;
+}
+console.log(`You have $${bank_account} in your bank account!`);
+
+let bank_account2 = 0;
+for (let i = 1; i <= 100; i++) {
+	bank_account2 = bank_account2 + 2 * i;
+}
+console.log(`You have $${bank_account2} in your bank account!`);
 // 🔴 Commit.
 
 
