@@ -544,6 +544,7 @@ console.log(transmogrify(5, 3, 2));
 // => 225
 // 🔴 Commit.
 
+
 // J. reverseWordOrder v2
 
 // Without using .split(), .reverse(), or .join(), write a function reverseWordOrder that accepts a single argument, a string. The function should return a string with the order of the words reversed. Don't worry about punctuation.
@@ -617,12 +618,21 @@ console.log(getRandomElement(quotes));
 console.log(getRandomElement(quotes));
 // 🔴 Commit.
 
-// Objects
+
+
+// V. Objects
 // Let's set up an object data structure. Let's say we have a website that sells products, and we have a user of our website, and we want to store that user's data. The object data structure is a good way to organize the data from our user.
 
 // A. Make a user object
+
 // Create an object called user.
-// Write in to the object the key-value pairs for name, email, age, and purchased. Set the value of purchased to an empty array []. Set the other values to whatever you would like.
+// Write into the object the key-value pairs for name, email, age, and purchased. Set the value of purchased to an empty array []. Set the other values to whatever you would like.
+const user = {
+	name: "John Connor",
+	email: "chillout91@aol.com",
+	age: 10,
+	purchased: []
+};
 // 🔴 Commit.
 
 // B. Update the user
