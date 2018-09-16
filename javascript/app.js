@@ -148,6 +148,11 @@ for (let i = 12; i <= 4000; i += 3) {
 // B. Get even
 // Print out the even numbers that are within the range of 1 - 100.
 // Adjust your code to add a message next to even numbers only that says: "<-- is an even number".
+for (let i = 1; i <= 100; i++) {
+	if (i % 2 === 0) {
+		console.log(i + " <-- is an even number");
+	}
+}
 // 🔴 Commit.
 
 
