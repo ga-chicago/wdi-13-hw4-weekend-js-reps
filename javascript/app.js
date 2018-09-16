@@ -428,16 +428,19 @@ const printCool = (name) => {
 	return `${name} is hella cool`; 
 }
 console.log(printCool("Hela"));
-
-
 // 🔴 Commit.
 
-// C. calculateCube
-// Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
 
+// C. calculateCube
+
+// Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
 // console.log(calculateCube(5));
 // => 125
-
+const calculateCube = (number) => {
+	// Use Matgh.pow(a, b) which is a^b
+	return `${Math.pow(number, 3)} is the cube of ${number}`;
+}
+console.log(calculateCube(5));
 // 🔴 Commit.
 
 // D. isVowel
