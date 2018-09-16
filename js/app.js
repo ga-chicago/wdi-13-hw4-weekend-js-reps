@@ -235,7 +235,7 @@
 
 //f. biggie smalls
 
-const num = 7;
+// const num = 7;
 
 // if (num < 100) {
 // 	console.log('little number')
@@ -246,12 +246,79 @@ const num = 7;
 
 //g. monkey in the middle
 
-if (num < 5) {
-	console.log('little number')
-} if (num > 10) {
-	console.log('big number')
-} else {
-	console.log ('monkey')
-};
+// if (num < 5) {
+// 	console.log('little number')
+// } if (num > 10) {
+// 	console.log('big number')
+// } else {
+// 	console.log ('monkey')
+// };
+
+
+//h. what's in your closet? 
+
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+//1.
+
+console.log('Kristyn is rocking that ' + kristynsCloset[2] + ' today!')
+
+//2. 
+
+kristynsCloset.splice(6, 0, 'raybans'); 
+
+//3. 
+
+kristynsCloset[5] = 'stained knit hat';
+
+//4. 
+
+console.log(thomscloset[0][1]);
+
+//5. 
+
+console.log(thomsCloset[1][2]);
+
+//6. 
+
+console.log(thomsCloset[2][0]);
+
+//7. 
+
+console.log('Thoms is looking fierce in his ' + thomsCloset[0][2] + ', ' + thomsCloset[1][0] + ' and a nice ' + thomsCloset[2][1] + '.');
+
+//8. 
+
+thomscloset[1][2] = 'footie pajamas';
+
+
 
 
