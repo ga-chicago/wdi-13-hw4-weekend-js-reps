@@ -246,7 +246,14 @@ console.log(myDog);
 
 
 // B. Easy Does It
+
 // Create an array that contains three quotes and store it in a variable called quotes.
+let quotes = {
+	Bill_W: "Grant me the serenity to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference.", 
+	Hannibal_Lecter: "Killing must feel good to God, too. He does it all the time, and are we not created in his image?",
+	Francis_Dolarhyde: "YOU OWE ME AWE."
+}
+console.log(quotes);
 // 🔴 Commit.
 
 
