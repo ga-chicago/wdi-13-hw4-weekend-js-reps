@@ -340,3 +340,15 @@ const getMultipleLengths = (string) => {
 console.log(getMultipleLengths(["hi", "poop", "destiny"]));
 
 
+//--------------maxOfThree-------------//
+// Define a function maxOfThree that takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned.
+const maxOfThree = (num1, num2, num3) => {
+	if (num1 && num2 < num3){
+		console.log(num3);
+	} if (num2 && num3 < num1){
+		console.log(num1);
+	} if ( num3  && num1 < num2){
+		console.log(num2);
+	}
+	}
+maxOfThree(31,2993,99);
