@@ -295,6 +295,15 @@ const printCool = (name) => {
 }
 printCool('Chris')
 
+// calculateCube
+
+const calcCube = (num) => {
+	return num ** 3;
+}
+console.log(calcCube(5))
+
+
+
 
 
 
