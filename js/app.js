@@ -327,3 +327,24 @@ const getTwoLengths = (arr1, arr2) => {
 
 console.log(getTwoLengths("What", "Yea"));
 
+// getMultipleLengths
+
+const getMultLengths = (str) => {
+	let lengthStorage = [];
+	for(let i = 0; i < str.length; i++) {
+		let breakDown = str[i];
+		lengthStorage.push(breakDown.length);
+	}
+	return lengthStorage;
+}
+
+console.log(getMultLengths(["Hey", "Yeah", "Super", "Totally"]));
+
+
+
+
+
+
+
+
+
