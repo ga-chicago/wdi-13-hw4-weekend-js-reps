@@ -229,18 +229,13 @@ console.log(`${sum} <-- Sum of all the multiples of 3 or 5 below 1000`);
 
 // // A. Talk about it:
 // // What are the things in an array called?
-// Arrays are objects that contain items. Each item is a key:value pair, its value can be any JavaScript value.
+// Arrays are objects that contain items called elements. Each element can be accessed through its index, its value can be any JavaScript value.
 // // Do Arrays guarantee those things will be in order?
-// The items in an array will be in the order they are written out in the array definition. It is however possible to modify these items, including their order.
+// The items in an array will be in the order they are written out in the array definition. It is however possible to modify these items, including their order. Objects aren't guaranteed to stay in order.
 // // What real-life thing could you model with an array?
 // Quite literally Anything. Any person, place, or thing that possesses properties can be modeled with an array.
 // Example:
-const myDog = {
-	name: "Zelda",
-	age: 8,
-	colour: ["brown", "black", "white"],
-	loves: "Sleepbarking and farting in my bed"
-}
+const myDog = ["Zelda", 8, ["brown", "black", "white"], "Sleepbarking and farting in my bed"];
 console.log(myDog);
 // 🔴 Commit.
 
@@ -248,11 +243,11 @@ console.log(myDog);
 // B. Easy Does It
 
 // Create an array that contains three quotes and store it in a variable called quotes.
-let quotes = {
-	Bill_W: "Grant me the serenity to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference.", 
-	Hannibal_Lecter: "Killing must feel good to God, too. He does it all the time, and are we not created in his image?",
-	Francis_Dolarhyde: "YOU OWE ME AWE."
-}
+let quotes = [
+	"Grant me the serenity to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference.", 
+	"Killing must feel good to God, too. He does it all the time, and are we not created in his image?",
+	"YOU OWE ME AWE."
+]
 console.log(quotes);
 // 🔴 Commit.
 
@@ -589,23 +584,37 @@ reverseWordOrder = (string) => {
 	for (let j = stringedWords.length-1; j >= 0; j--) {
 		newSentence += stringedWords[j];
 	}
-	// Mutate
-
 	return newSentence;
 }
-console.log(stringedWords[0]);
 console.log(reverseWordOrder("Ishmael me Call"));
 // // => "Call me Ishmael"
 console.log(reverseWordOrder("I use Lâncome on my comb"));
 // => "comb my on Lâncome use I"
 // 🔴 Commit.
 
+
 // K. Get down and dirty with Math.random()
+
 // Write a function that will return a random integer between 1 and 10. Test it.
+const randomInteger = (min, max) => {
+	return Math.floor(Math.random() * (max+1 - min) + min);
+}
 // Write a function that will return a random integer between 10 and 100. Test it.
+console.log(randomInteger(10, 100));
 // Write a function that will return a random number between 532 and 13267. Test it.
+console.log(randomInteger(532, 13267));
 // Write a function that will return a random number between 1 and 10. Test it.
+console.log(randomInteger(1, 10));
 // Add a few more quotes to the quotes array from question III-B-1 above. Write a function that will take an array as a parameter, and return a random element from that array. Call your function a few times, passing in the quotes array. Give it a nice semantic name like getRandomElement.
+// Adding a few more quotes
+quotes[quotes.length] = "Chill out, d*ckwad.";
+quotes[quotes.length] = "Plum Island Animal Disease Research Facility. Sounds charming.";
+const getRandomElement = (array) => {
+	return quotes[randomInteger(0, quotes.length-1)];
+}
+console.log(getRandomElement(quotes));
+console.log(getRandomElement(quotes));
+console.log(getRandomElement(quotes));
 // 🔴 Commit.
 
 // Objects
