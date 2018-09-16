@@ -249,7 +249,14 @@
 			return num3;
 		}
 	}
-
+	//h. printLongestWord
+	const printLongestWord = (array) => {
+		array.sort(function(a,b) {
+			return b.length - a.length;
+		})
+		return array[0];
+	}
+	
 
 
 
