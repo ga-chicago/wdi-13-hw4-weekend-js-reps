@@ -339,13 +339,27 @@
 
 //c. calculateCube
 
-const calculateCube = (x) => {
-	console.log(x * x * x);
+// const calculateCube = (x) => {
+// 	console.log(x * x * x);
+// };
+
+// calculateCube(3);
+
+//d. isVowel
+
+const isVowel = (character) => {
+	let lcCharacter = character.toLowerCase();
+	if (lcCharacter === 'a' || lcCharacter === 'e' || lcCharacter === 'i' || lcCharacter === 'o' || lcCharacter === 'u') {
+		console.log(true);
+	} else {
+		console.log(false);
+	}
 };
 
-calculateCube(3);
-
-
+isVowel('w');
+isVowel('e');
+isVowel('j');
+isVowel('u');
 
 
 
