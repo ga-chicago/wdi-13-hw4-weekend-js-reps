@@ -143,7 +143,13 @@
 		myArray.pop();
 		//5.
 		myArray.reverse();
-
+	//F. Biggie Smalls
+		const biggieSmalls = 144;
+		if(biggieSmalls < 144) {
+			console.log("little number");
+		} else if(biggieSmalls >= 144) {
+			console.log("big number");
+		}
 
 
 
