@@ -381,54 +381,103 @@
 
 //this one is tricky - gonna need some psuedo
 
-// const testArray = ['Jeremy', 'boba', 'microscope', 'pancake']
+const testArray = ['Jeremy', 'boba', 'microscope', 'pancake']
 
-// const getMultipleLengths = (stringArray) => {
+const getMultipleLengths = (stringArray) => {
 
-// // while loop
-// // while i < stringArray.length 
-// // save individual string stringArray[i] as variable
-// // save .length of individual string as new variable
-// // push new variable to empty numArray
-// // log numArray
+// while loop
+// while i < stringArray.length 
+// save individual string stringArray[i] as variable
+// save .length of individual string as new variable
+// push new variable to empty numArray
+// log numArray
 
-// 	let numArray = [];
-// 	let i = 0;
-// 	while (i < stringArray.length) {
-// 		let indivString = stringArray[i];
-// 		let lengthNum = indivString.length;
-// 		numArray.push(lengthNum);
-// 		i++;
-// 	}; 	
-// 		console.log (numArray)
+	let numArray = [];
+	let i = 0;
+	while (i < stringArray.length) {
+		let indivString = stringArray[i];
+		let lengthNum = indivString.length;
+		numArray.push(lengthNum);
+		i++;
+	}; 	
+		console.log (numArray)
 
-// };
+};
 
-// getMultipleLengths(testArray);
+getMultipleLengths(testArray);
 
 
 //g. maxOfThree
 
-const maxOfThree = (x, y, z) => {
-	let winner
-	if ((x >= y) === true) {
-		winner = x
-	} else {
-		winner = y
-	};
-	let lastWinner	 
-	if ((winner >= z) === true) {
-		lastWinner = winner
-	} else {
-		lastWinner = z
-	}; 
-		console.log(lastWinner);
+// const maxOfThree = (x, y, z) => {
+// 	let winner
+// 	if ((x >= y) === true) {
+// 		winner = x
+// 	} else {
+// 		winner = y
+// 	};
+// 	let lastWinner	 
+// 	if ((winner >= z) === true) {
+// 		lastWinner = winner
+// 	} else {
+// 		lastWinner = z
+// 	}; 
+// 		console.log(lastWinner);
+// };
+
+//there might have been a cleaner way to do this, but this works. 
+
+// maxOfThree(5, 4, 19);
+// maxOfThree(45, 9, 21);
+// maxOfThree(12, 99, 7);
+
+
+//h. printLongestWord
+
+
+
+// // pseudo: 
+// // while loop
+// // while i < stringarray.length
+// // save individual stringArray[i].length as variable
+// // (maybe split that^^ into two steps w/ two vars if it doesn't work)
+// // save stringarray(i + 1).length as variable2
+// // compare var1 & var 2, save winner as var winner
+// // i ++; <== bc i almost forgot you last time
+// // console.log(finalwinner)
+
+// //basically a combo of the last 3 functions, ok
+	// let stringOne = stringArray[i].length;
+// 		// // let stringTwo = stringArray[i + 1].length;//<--- returns undefined for some reason
+// 		// let stringOne = stringArray[i];
+// 		// let stringOneLength = stringOne.length;
+// 		// let stringTwo = stringArray[(i + 1)];
+// 		// let stringTwoLength = stringTwo.length; 
+// 		// //<-- returns undefined too... I think I'm overdoing this 
+// 		// let winner
+// 		// if ((stringOneLength.length >= stringTwoLength.length) === true) {
+// 		// 	winner = stringOneLength
+// 		// } else {
+// 		// 	winner = stringTwoLength
+// 		// }; 
+
+//while loop isn't cutting it, and I realized it was just picking the most recent
+//word when did get it to work. so instead, tried a for loop comparing each entry 
+//to an empty string. did the trick. 
+
+testArrayTwo = ['Illinois', 'Annie', 'synechdoche', 'fifi'];
+
+let largest = '';
+
+const printLongestWord = (stringArray) => {
+
+	for (let i = 0; i < stringArray.length; i++) {
+			if (stringArray[i].length >= largest.length) {
+				largest = stringArray[i];
+			};
+	}; 	console.log(largest);
 };
 
-maxOfThree(5, 4, 19);
-maxOfThree(45, 9, 21);
-maxOfThree(12, 99, 7);
-
-
+printLongestWord(testArrayTwo)
 
 
