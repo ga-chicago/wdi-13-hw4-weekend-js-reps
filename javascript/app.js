@@ -315,10 +315,10 @@ console.log(myArray);
 // F. Biggie Smalls
 
 // Create a variable that contains an integer.
-let number = 100;
+let numberF = 8;
 // Write an if ... else statement that:
 // console.log()s "little number" if the number is entered is less than 100
-if (number < 100) {
+if (numberF < 100) {
 	console.log("little number");
 // console.log()s big number if the number is greater than or equal to 100.
 } else {
@@ -328,10 +328,19 @@ if (number < 100) {
 
 
 // G. Monkey in the Middle
+
 // Write an if ... else if ... else statement:
 // console.log() little number if the number entered is less than 5.
+let numberG = 8;
+if (numberG < 5) {
+	console.log("little number");
 // If the number entered is more than 10, log big number.
+} else if (numberG > 10) {
+	console.log("big number");
 // Otherwise, log "monkey". 
+} else {
+	console.log("monkey");
+}
 // 🔴 Commit.
 
 
