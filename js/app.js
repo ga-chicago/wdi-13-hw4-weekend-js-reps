@@ -381,33 +381,53 @@
 
 //this one is tricky - gonna need some psuedo
 
-const testArray = ['Jeremy', 'boba', 'microscope', 'pancake']
+// const testArray = ['Jeremy', 'boba', 'microscope', 'pancake']
 
-const getMultipleLengths = (stringArray) => {
+// const getMultipleLengths = (stringArray) => {
 
-// while loop
-// while i < stringArray.length 
-// save individual string stringArray[i] as variable
-// save .length of individual string as new variable
-// push new variable to empty numArray
-// log numArray
+// // while loop
+// // while i < stringArray.length 
+// // save individual string stringArray[i] as variable
+// // save .length of individual string as new variable
+// // push new variable to empty numArray
+// // log numArray
 
-	let numArray = [];
-	let i = 0;
-	while (i < stringArray.length) {
-		let indivString = stringArray[i];
-		let lengthNum = indivString.length;
-		numArray.push(lengthNum);
-		i++;
-	}; 	
-		console.log (numArray)
+// 	let numArray = [];
+// 	let i = 0;
+// 	while (i < stringArray.length) {
+// 		let indivString = stringArray[i];
+// 		let lengthNum = indivString.length;
+// 		numArray.push(lengthNum);
+// 		i++;
+// 	}; 	
+// 		console.log (numArray)
 
+// };
+
+// getMultipleLengths(testArray);
+
+
+//g. maxOfThree
+
+const maxOfThree = (x, y, z) => {
+	let winner
+	if ((x >= y) === true) {
+		winner = x
+	} else {
+		winner = y
+	};
+	let lastWinner	 
+	if ((winner >= z) === true) {
+		lastWinner = winner
+	} else {
+		lastWinner = z
+	}; 
+		console.log(lastWinner);
 };
 
-getMultipleLengths(testArray);
-
-
-
+maxOfThree(5, 4, 19);
+maxOfThree(45, 9, 21);
+maxOfThree(12, 99, 7);
 
 
 
