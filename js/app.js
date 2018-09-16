@@ -330,9 +330,29 @@
 
 //b. printCool
 
-const printCool = (name) => {
-	console.log(`${name} is cool.`);
+// const printCool = (name) => {
+// 	console.log(`${name} is cool.`);
+// };
+
+// printCool('Reuben');
+
+
+//c. calculateCube
+
+const calculateCube = (x) => {
+	console.log(x * x * x);
 };
 
-printCool('Reuben');
+calculateCube(3);
+
+
+
+
+
+
+
+
+
+
+
 
