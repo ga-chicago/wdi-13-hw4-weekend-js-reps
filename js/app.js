@@ -202,6 +202,25 @@ const myArray = [5, 10, 500, 20]
 
 console.log(myArray);
 
+// F. Biggie Smalls
+
+const specificNumber = 11
+
+// 1.
+if(specificNumber < 5) {
+	console.log("Little number...");
+// 2.
+} else if (specificNumber > 10) {
+	console.log("Big number!")
+}
+
+
+
+
+
+
+
+
 
 
 
