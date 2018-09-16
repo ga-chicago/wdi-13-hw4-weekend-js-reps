@@ -362,19 +362,49 @@
 // isVowel('u');
 
 
-//e. 
+//e. getTwoLengths
 
-const getTwoLengths = (string1, string2) => {
-	let length1 = string1.length; 
-	let length2 = string2.length;
-	let lengthArray = [length1, length2]
-	console.log(lengthArray);
+// const getTwoLengths = (string1, string2) => {
+// 	let length1 = string1.length; 
+// 	let length2 = string2.length;
+// 	let lengthArray = [length1, length2]
+// 	console.log(lengthArray);
+// };
+
+
+// getTwoLengths('banana', 'Germany');
+// getTwoLengths('Jemima', 'applesauce')
+// getTwoLengths('latke', 'pantomime');
+
+
+//f. getMultipleLengths
+
+//this one is tricky - gonna need some psuedo
+
+const testArray = ['Jeremy', 'boba', 'microscope', 'pancake']
+
+const getMultipleLengths = (stringArray) => {
+
+// while loop
+// while i < stringArray.length 
+// save individual string stringArray[i] as variable
+// save .length of individual string as new variable
+// push new variable to empty numArray
+// log numArray
+
+	let numArray = [];
+	let i = 0;
+	while (i < stringArray.length) {
+		let indivString = stringArray[i];
+		let lengthNum = indivString.length;
+		numArray.push(lengthNum);
+		i++;
+	}; 	
+		console.log (numArray)
+
 };
 
-
-getTwoLengths('banana', 'Germany');
-getTwoLengths('Jemima', 'applesauce')
-getTwoLengths('latke', 'pantomime');
+getMultipleLengths(testArray);
 
 
 
