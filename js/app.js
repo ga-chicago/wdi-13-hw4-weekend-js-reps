@@ -304,6 +304,8 @@
 	//B. Update user
 	user.email = "Brayden.Smith@gmail.com";
 	user.age++;
+	//C. Add keys/values
+	user.location = "Arizona";
 
 
 
