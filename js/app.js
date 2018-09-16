@@ -260,6 +260,40 @@
 	const transmogrify = (num1,num2,num3) => {
 		return (num1*num2)**num3;
 	}
+	//j. reverseWordOrder v2
+	//find positions of spaces
+	//return strings after each space
+	//unsure how to do this; will return to it
+	/*const reverseWordOrder = (string) => {
+		let newString = "";
+		for(let i = 0; i < ) {
+
+		}
+	}*/
+	//"I like food"
+	//k. Math.random()
+	//1. int between 1 and 10
+	const rand1 = () => {
+		return Math.floor(Math.random()*9)+1;
+	}
+	//2. int between 10 and 100
+	const rand2 = () => {
+		return Math.floor(Math.random()*90)+10;
+	}
+	//3. between 532 and 13267
+	const rand3 = () => {
+		return Math.random()*12735+532;
+	}
+	//4. between 1 and 10
+	const rand4 = () => {
+		return Math.random()*9+1;
+	}
+	//5. 
+	const quotes2 = ["To infinity and beyond","The first rule is you do not talk about fight club","All your base are belong to us","I just can't wait to be king","All work and no play makes Jack a dull boy"];
+	const getRandomElement = (array) => {
+		return array[Math.floor(Math.random()*array.length)+1];
+	}
+
 
 
 
