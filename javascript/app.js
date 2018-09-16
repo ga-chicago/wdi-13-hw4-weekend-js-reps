@@ -445,10 +445,20 @@ console.log(calculateCube(5));
 
 // D. isVowel
 // Write a function isVowel that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case.
-
 // console.log(isVowel("a"));
 // => true
-
+const isVowel = (string) => {
+	// Make string toLowerCase to avoid condition repetition overload
+	string.toLowerCase();
+	if (string.length === 1 && string === "a" || string === "e" || string === "i" || string === "o" || string === "u" || string === "y") {
+		return true;
+	} else if (string.length > 1) {
+		return `Not a letter :( Feed me a letter!`
+	} else {
+		return false;
+	}
+}
+console.log(isVowel("a"));
 // 🔴 Commit.
 
 // E. getTwoLengths
