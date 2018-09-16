@@ -400,18 +400,24 @@ console.log(thomsCloset);
 // 🔴 Commit.
 
 
+
 // IV. Functions
 
 
 // A. printGreeting
+
 // Do you think you could write a function called printGreeting with a parameter name that returns a greeting with the argument interpolated into the greeting?
 // Like so?
-
 // console.log(printGreeting("Slimer"));
 // => Hello there, Slimer!
-
 // You think you could? I think so too. Feel free to skip this problem, because you've already done it. If you've done the problem twice, read entire problems carefully before doing them from now on.
-
+// I dont' mind redoing, good practice :)
+const printGreeting = (name) => {
+	console.log(`Hello there, ${name}!`); 
+	// I find this a bit easier to read than vv
+	// console.log("Hello there, " + name + "!");
+}
+printGreeting("Slimer");
 // 🔴 Commit.
 
 // B. printCool
