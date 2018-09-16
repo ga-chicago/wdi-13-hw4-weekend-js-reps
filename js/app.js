@@ -217,7 +217,7 @@ console.log("works");
 // console.log(myArray);
 //---------------Biggie smalls-------------------//
 // Create a variable that contains an integer.
-const integer = 99;
+const integer = 11;
 // Write an if ... else statement that:
 if (integer < 100){
 	console.log("little number");
@@ -225,4 +225,14 @@ if (integer < 100){
 } else if (integer >= 100){
 // console.log()s big number if the number is greater than or equal to 100.
 	console.log("big number ");
+}
+//----------------Monkey in the middle---------------//
+// Write an if ... else if ... else statement:
+if (integer < 5){
+// console.log() little number if the number entered is less than 5.
+	console.log("little number"); 
+// If the number entered is more than 10, log big number.
+} else if (integer > 10) {
+// Otherwise, log "monkey". 
+	console.log("monkey");
 }
