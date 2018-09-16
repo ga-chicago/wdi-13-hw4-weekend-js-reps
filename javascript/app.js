@@ -732,17 +732,33 @@ console.log(oldAndLoud(user));
 // 🔴 Commit.
 
 
+
+
+
 // Hungry for More?
+
+
 // Cat Combinator
+
 // 1. Mama cat
+
 // Define an object called cat1 that contains the following properties:
 // name
 // breed
 // age (a number)
+const cat1 = {
+	name: "King Bumi",
+	breed: "Long Hair Tabby",
+	age: 112
+}
 // console.log the cat's age
+console.log(cat1.age);
 // console.log the cat's breed
+console.log(cat1.breed);
+
 
 // 2. Papa cat
+
 // Define an object called cat2 that also contains the properties:
 // name
 // breed
