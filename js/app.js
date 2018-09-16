@@ -257,67 +257,67 @@
 
 //h. what's in your closet? 
 
-const kristynsCloset = [
-  "left shoe",
-  "cowboy boots",
-  "right sock",
-  "GA hoodie",
-  "green pants",
-  "yellow knit hat",
-  "marshmallow peeps"
-];
+// const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "GA hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps"
+// ];
 
-const thomsCloset = [
-  [
-    // These are Thom's shirts
-    "grey button-up",
-    "dark grey button-up",
-    "light blue button-up",
-    "blue button-up",
-  ],[
-    // These are Thom's pants
-    "grey jeans",
-    "jeans",
-    "PJs"
-  ],[
-    // Thom's accessories
-    "wool mittens",
-    "wool scarf",
-    "raybans"
-  ]
-];
+// const thomsCloset = [
+//   [
+//     // These are Thom's shirts
+//     "grey button-up",
+//     "dark grey button-up",
+//     "light blue button-up",
+//     "blue button-up",
+//   ],[
+//     // These are Thom's pants
+//     "grey jeans",
+//     "jeans",
+//     "PJs"
+//   ],[
+//     // Thom's accessories
+//     "wool mittens",
+//     "wool scarf",
+//     "raybans"
+//   ]
+// ];
 
-//1.
+// //1.
 
-console.log('Kristyn is rocking that ' + kristynsCloset[2] + ' today!')
+// console.log('Kristyn is rocking that ' + kristynsCloset[2] + ' today!')
 
-//2. 
+// //2. 
 
-kristynsCloset.splice(6, 0, 'raybans'); 
+// kristynsCloset.splice(6, 0, 'raybans'); 
 
-//3. 
+// //3. 
 
-kristynsCloset[5] = 'stained knit hat';
+// kristynsCloset[5] = 'stained knit hat';
 
-//4. 
+// //4. 
 
-console.log(thomscloset[0][1]);
+// console.log(thomscloset[0][1]);
 
-//5. 
+// //5. 
 
-console.log(thomsCloset[1][2]);
+// console.log(thomsCloset[1][2]);
 
-//6. 
+// //6. 
 
-console.log(thomsCloset[2][0]);
+// console.log(thomsCloset[2][0]);
 
-//7. 
+// //7. 
 
-console.log('Thoms is looking fierce in his ' + thomsCloset[0][2] + ', ' + thomsCloset[1][0] + ' and a nice ' + thomsCloset[2][1] + '.');
+// console.log('Thoms is looking fierce in his ' + thomsCloset[0][2] + ', ' + thomsCloset[1][0] + ' and a nice ' + thomsCloset[2][1] + '.');
 
-//8. 
+// //8. 
 
-thomscloset[1][2] = 'footie pajamas';
+// thomscloset[1][2] = 'footie pajamas';
 
 
 //Part IV: Functions
@@ -327,5 +327,12 @@ thomscloset[1][2] = 'footie pajamas';
 
 //I feel pretty comfortable with this one so I'm skipping it thank you
 
-//b. 
+
+//b. printCool
+
+const printCool = (name) => {
+	console.log(`${name} is cool.`);
+};
+
+printCool('Reuben');
 
