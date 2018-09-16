@@ -210,14 +210,37 @@
 
 //d. change values
 
-const ourClass = ['Salty', 'Zoom', 'Sardine', 'Slack', 'Github'];
+// const ourClass = ['Salty', 'Zoom', 'Sardine', 'Slack', 'Github'];
 
-ourClass[2];
+// ourClass[2];
 
-ourClass[3] = 'Octocat';
+// ourClass[3] = 'Octocat';
 
-ourClass.push('Cloud City');
+// ourClass.push('Cloud City');
 
+
+//e. mix it up
+
+const myArray = [5, 10, 500, 20];
+
+myArray.push('Egon');
+myArray.splice(0, 1);
+myArray.push('Bob Marley');
+myArray.pop();
+myArray.reverse(); //<-- returns ['Egon', 20, 500, 10]
+
+//yes it mutated the array - that just means the array has been changed
+//by the reverse() method: its interior values have been altered by reordering.
+
+
+//f. biggie smalls
+
+const num = 9999;
+
+if (num < 100) {
+	console.log('little number')
+} else {console.log ('big number')
+};
 
 
 
