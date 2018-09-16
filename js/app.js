@@ -221,13 +221,13 @@
 
 //e. mix it up
 
-const myArray = [5, 10, 500, 20];
+// const myArray = [5, 10, 500, 20];
 
-myArray.push('Egon');
-myArray.splice(0, 1);
-myArray.push('Bob Marley');
-myArray.pop();
-myArray.reverse(); //<-- returns ['Egon', 20, 500, 10]
+// myArray.push('Egon');
+// myArray.splice(0, 1);
+// myArray.push('Bob Marley');
+// myArray.pop();
+// myArray.reverse(); //<-- returns ['Egon', 20, 500, 10]
 
 //yes it mutated the array - that just means the array has been changed
 //by the reverse() method: its interior values have been altered by reordering.
@@ -235,13 +235,23 @@ myArray.reverse(); //<-- returns ['Egon', 20, 500, 10]
 
 //f. biggie smalls
 
-const num = 9999;
+const num = 7;
 
-if (num < 100) {
+// if (num < 100) {
+// 	console.log('little number')
+// } else {
+//	console.log ('big number')
+// };
+
+
+//g. monkey in the middle
+
+if (num < 5) {
 	console.log('little number')
-} else {console.log ('big number')
+} if (num > 10) {
+	console.log('big number')
+} else {
+	console.log ('monkey')
 };
-
-
 
 
