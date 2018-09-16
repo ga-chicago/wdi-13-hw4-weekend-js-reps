@@ -214,6 +214,11 @@
 		return name + " is cool";
 	}
 	console.log(printCool("Jeff"));
+	//C. calculateCube
+	const calculateCube = (number) => {
+		return number**3;
+	}
+	console.log(calculateCube(4));
 
 
 
