@@ -413,18 +413,22 @@ console.log(thomsCloset);
 // You think you could? I think so too. Feel free to skip this problem, because you've already done it. If you've done the problem twice, read entire problems carefully before doing them from now on.
 // I dont' mind redoing, good practice :)
 const printGreeting = (name) => {
-	console.log(`Hello there, ${name}!`); 
-	// I find this a bit easier to read than vv
-	// console.log("Hello there, " + name + "!");
+	return `Hello there, ${name}!`; 
 }
-printGreeting("Slimer");
+console.log(printGreeting("Slimer"));
 // 🔴 Commit.
 
-// B. printCool
-// Write a function printCool that accepts one parameter, name as an argument. The function should print the name and a message saying that that person is cool.
 
+// B. printCool
+
+// Write a function printCool that accepts one parameter, name as an argument. The function should print the name and a message saying that that person is cool.
 // console.log(printCool("Captain Reynolds"));
 // => "Captain Reynolds is cool";
+const printCool = (name) => {
+	return `${name} is hella cool`; 
+}
+console.log(printCool("Hela"));
+
 
 // 🔴 Commit.
 
