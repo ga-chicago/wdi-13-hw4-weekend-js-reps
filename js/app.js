@@ -206,6 +206,10 @@
 		console.log("Thom is looking fierce in a " + thomsCloset[0][0] + ", " + thomsCloset[1][1] + " and " + thomsCloset[2][2] + "!");
 		//8.
 		thomsCloset[1][2] = "Footie Pajamas";
+//IV. Functions
+	//A. printGreeting
+	//skipped
+	//B. 
 
 
 
