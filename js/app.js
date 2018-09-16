@@ -301,13 +301,29 @@ const number = (50);
 // Write an if ... else statement that:
 // console.log()s "little number" if the number is entered is less than 100
 if (number < 100) {
-  console.log('Little number');
+  // console.log('Little number');
+  
   // console.log()s big number if the number is greater than or equal to 100
 } else if (number >= 100) {
-  console.log('Big number')
+  // console.log('Big number')
 }
 
+//---------G. Monkey in the Middle
 
+// Write an if ... else if ... else statement:
+const isNumber = (5);
+// console.log() little number if the number entered is less than 5.
+if (isNumber < 5) {
+  console.log('little number')
+  // If the number entered is more than 10, log big number.
+} else if (isNumber > 10) {
+  console.log('big number')
+  // Otherwise, log "monkey".
+} else {
+  console.log('monkey')
+}
+
+ 
 
 
 
