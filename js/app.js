@@ -227,6 +227,10 @@
 			return false;
 		}
 	}
+	//E. getTwoLengths
+	const getTwoLengths = (str1,str2) => {
+		return [str1.length,str2.length];
+	}
 
 
 
