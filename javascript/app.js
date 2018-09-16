@@ -225,12 +225,23 @@ console.log(`${sum} <-- Sum of all the multiples of 3 or 5 below 1000`);
 
 
 
-// III. Arrays & Control flow
+// // III. Arrays & Control flow
 
-// A. Talk about it:
-// What are the things in an array called?
-// Do Arrays guarantee those things will be in order?
-// What real-life thing could you model with an array?
+// // A. Talk about it:
+// // What are the things in an array called?
+// Arrays are objects that contain items. Each item is a key:value pair, its value can be any JavaScript value.
+// // Do Arrays guarantee those things will be in order?
+// The items in an array will be in the order they are written out in the array definition. It is however possible to modify these items, including their order.
+// // What real-life thing could you model with an array?
+// Quite literally Anything. Any person, place, or thing that possesses properties can be modeled with an array.
+// Example:
+const myDog = {
+	name: "Zelda",
+	age: 8,
+	colour: ["brown", "black", "white"],
+	loves: "Sleepbarking and farting in my bed"
+}
+console.log(myDog);
 // 🔴 Commit.
 
 
