@@ -326,3 +326,17 @@ const getTwoLengths = (string1, string2) => {
 }
 getTwoLengths("hi", "turbo");
 getTwoLengths("ahahahahahaahahahahahaha", "");
+
+//----------------getMultipleLengths-------------//
+// Write a function getMultipleLengths that accepts a single parameter as an argument: an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
+const getMultipleLengths = (string) => {
+	let stringLength = [];
+		for (let i = 0; i < string.length; i++){
+			let array = string[i];
+			stringLength.push(array.length);
+		}
+			return stringLength;
+}
+console.log(getMultipleLengths(["hi", "poop", "destiny"]));
+
+
