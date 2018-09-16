@@ -354,7 +354,12 @@ const findLongestWord = (arrayOne) => {
 
 console.log(findLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]))
 
+// Transmogrify
 
+const transmogrify = (firstNum, secondNum, thirdNum) => {
+	return (firstNum * secondNum) ** thirdNum;
+}
 
+console.log(transmogrify(5, 3, 2));
 
 
