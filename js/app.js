@@ -201,17 +201,28 @@ console.log("works");
 // console.log(ourClass);
 //-------------------Mix it up-----------------//
 // Given the following array: 
-const myArray = [5, 10, 500, 20];
-// Add the string "Egon" to the end of the array. Add another string of your choice to the end of the array.
-myArray.push("egon");
-myArray.push("Hi, Im a string");
-// Remove the 5 from the beginning of the array.
-myArray.shift(5);
-// Add the string "Bob Marley" to the beginning of the array.
-myArray.unshift("Bob Marley");
-// Remove the string of your choise(choise!?!?!..CHOISE!?!?!) from the end of the array.
-myArray.splice(3,1,);
-// Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method return anything?
-//well i had prototype in there and it didn't change anything so i took it out and it reversed the string
-myArray.reverse();
-console.log(myArray);
+// const myArray = [5, 10, 500, 20];
+// // Add the string "Egon" to the end of the array. Add another string of your choice to the end of the array.
+// myArray.push("egon");
+// myArray.push("Hi, Im a string");
+// // Remove the 5 from the beginning of the array.
+// myArray.shift(5);
+// // Add the string "Bob Marley" to the beginning of the array.
+// myArray.unshift("Bob Marley");
+// // Remove the string of your choise(choise!?!?!..CHOISE!?!?!) from the end of the array.
+// myArray.splice(3,1,);
+// // Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method return anything?
+// //well i had prototype in there and it didn't change anything so i took it out and it reversed the string
+// myArray.reverse();
+// console.log(myArray);
+//---------------Biggie smalls-------------------//
+// Create a variable that contains an integer.
+const integer = 99;
+// Write an if ... else statement that:
+if (integer < 100){
+	console.log("little number");
+// console.log()s "little number" if the number is entered is less than 100
+} else if (integer >= 100){
+// console.log()s big number if the number is greater than or equal to 100.
+	console.log("big number ");
+}
