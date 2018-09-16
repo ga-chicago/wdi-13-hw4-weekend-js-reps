@@ -306,6 +306,11 @@
 	user.age++;
 	//C. Add keys/values
 	user.location = "Arizona";
+	//D. Shop
+	user.purchased.push("carbohydrates");
+	user.purchased.push("peace of mind");
+	user.purchased.push("Merino jodhpurs");
+	console.log(user.purchased[2]);
 
 
 
