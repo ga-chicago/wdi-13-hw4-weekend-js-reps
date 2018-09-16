@@ -317,5 +317,13 @@ const isAVowel = (letter) => {
 
 console.log(isAVowel('Y'))
 
+// getTwoLengths
 
+const getTwoLengths = (arr1, arr2) => {
+	const arraysLength = []
+	arraysLength.push(arr1.length, arr2.length)
+	return arraysLength;
+}
+
+console.log(getTwoLengths("What", "Yea"));
 
