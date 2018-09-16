@@ -204,7 +204,7 @@ console.log(myArray);
 
 // F. Biggie Smalls
 
-const specificNumber = 11
+const specificNumber = 7
 
 // 1.
 if(specificNumber < 5) {
@@ -214,9 +214,15 @@ if(specificNumber < 5) {
 	console.log("Big number!")
 }
 
+// G. Monkey in the Middle
 
-
-
+if(specificNumber < 5) {
+	console.log("Little number...")
+} else if(specificNumber > 10) {
+	console.log("Big number!");
+} else {
+	console.log("Monkey...")
+}
 
 
 
