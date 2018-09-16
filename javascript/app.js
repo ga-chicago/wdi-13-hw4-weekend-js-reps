@@ -124,12 +124,15 @@ if (personAge >= 16) {
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+
 // II. Loops
 // Remember: USE let when you initialize your for loops!
 // This is GOOD: for(let i = 0;i < 100; i++)
 // This is NO GOOD: for(i = 0; i < 100; i++)
 
+
 // A. The basics
+
 // Write a loop that will print out all the numbers from 0 to 10, inclusive.
 for (let i = 0; i <= 10; i++) {
 	// console.log(i);
@@ -146,17 +149,19 @@ for (let i = 12; i <= 4000; i += 3) {
 
 
 // B. Get even
+
 // Print out the even numbers that are within the range of 1 - 100.
 // Adjust your code to add a message next to even numbers only that says: "<-- is an even number".
 for (let i = 1; i <= 100; i++) {
 	if (i % 2 === 0) {
-		console.log(i + " <-- is an even number");
+		// console.log(i + " <-- is an even number");
 	}
 }
 // 🔴 Commit.
 
 
 // C. Give me Five
+
 // For the numbers 0 - 100, print out "I found a number. High five!" if the number is a multiple of five.
 // Example Output:
 // I found a 5. High five!
@@ -168,6 +173,16 @@ for (let i = 1; i <= 100; i++) {
 // I found a 6. Three is a crowd
 // I found a 9. Three is a crowd
 // I found a 10. High five!
+for (let i = 0; i <= 100; i++) {
+	if (i % 15 === 0) {
+		console.log(i + " <-- I found a number. High five!");
+		console.log(i + " <-- I found a number. Three is a crowd");
+	} else if (i % 5 === 0) {
+		console.log(i + " <-- I found a number. High five!");
+	} else if (i % 3 === 0) {
+		console.log(i + " <-- I found a number. Three is a crowd");
+	}
+}
 // 🔴 Commit.
 
 
