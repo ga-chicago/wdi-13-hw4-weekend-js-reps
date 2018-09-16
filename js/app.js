@@ -320,5 +320,12 @@ console.log('Thoms is looking fierce in his ' + thomsCloset[0][2] + ', ' + thoms
 thomscloset[1][2] = 'footie pajamas';
 
 
+//Part IV: Functions
 
+
+//a. printGreeting
+
+//I feel pretty comfortable with this one so I'm skipping it thank you
+
+//b. 
 
