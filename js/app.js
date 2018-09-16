@@ -288,6 +288,27 @@ myArray.pop()
 myArray.reverse();
 console.log(myArray);
 
+//I used a mutation method to change the entirety of the array. When you mutate you are changing the array itself, non-mutating methods will return an array with the changes though.
+
+
+//--------F. Notorious B.I.G.
+
+// Create a variable that contains an integer.
+
+const number = (50);
+
+
+// Write an if ... else statement that:
+// console.log()s "little number" if the number is entered is less than 100
+if (number < 100) {
+  console.log('Little number');
+  // console.log()s big number if the number is greater than or equal to 100
+} else if (number >= 100) {
+  console.log('Big number')
+}
+
+
+
 
 
 
