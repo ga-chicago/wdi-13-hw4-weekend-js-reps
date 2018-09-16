@@ -318,5 +318,11 @@ for (let i = 0; i< vowel.length; i++){
 }
 }
 console.log(isVowel("f"));
+//---------------getTwoLengths------------//
+// Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
+const getTwoLengths = (string1, string2) => {
+	console.log(string1.length, string2.length);
 
-
+}
+getTwoLengths("hi", "turbo");
+getTwoLengths("ahahahahahaahahahahahaha", "");
