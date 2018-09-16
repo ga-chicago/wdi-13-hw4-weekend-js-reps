@@ -550,15 +550,53 @@ console.log(transmogrify(5, 3, 2));
 // 🔴 Commit.
 
 // J. reverseWordOrder v2
+
 // Without using .split(), .reverse(), or .join(), write a function reverseWordOrder that accepts a single argument, a string. The function should return a string with the order of the words reversed. Don't worry about punctuation.
 // See if you can do it without googling.
 // Remember: Jim showed you today that you can index directly into a string:
 // "hello world"[6]
 // => "w"
 // That and basic loops and variables and arrays are all you need to solve this without the Array methods.
-// console.log(reverseWordOrder("Ishmael me Call"));
-// => "Call me Ishmael"
-// console.log(reverseWordOrder("I use Lâncome on my comb"));
+// Define empty string oneWord that will store characters one at a time to make a word, then be emptied
+let oneWordCharacters = "";
+// Define empty array that will hold the words converted to strings
+let stringedWords = [];
+// Define newSentence variable that will holde the entire sentence
+let newSentence = "";
+reverseWordOrder = (string) => {
+	// Empty variables to clean up for next function use
+	stringedWords = [];
+	newSentence = "";
+	// Loop through the string array characters (add a unit of length for the following to work)
+	for (let i = 0; i < string.length; i++) {
+		// Log the characters into the variable oneWordCharacters
+		oneWordCharacters += string[i];
+		// When loop hits a blank space or undefined store oneWordCharacters into stringedWords
+		if (string[i] === " ") {
+			stringedWords[stringedWords.length] = oneWordCharacters;
+			oneWordCharacters = "";
+		// Take care of the last word by taking advantage of undefined
+		} else if (string[i+1] === undefined) {
+			// Add a space at the end of the last word (which will come first)
+			stringedWords[stringedWords.length] = oneWordCharacters + " ";
+			oneWordCharacters = "";
+		}
+	}	
+	// Remove the space at the end of the first word (which will come last)
+	// Having a hard time without .pop() or .splice()
+	// stringedWords[0][stringedWords[0].length-1] = ""; // Doesn't work
+	// Now loop through the new stringedWords Array in reverse
+	for (let j = stringedWords.length-1; j >= 0; j--) {
+		newSentence += stringedWords[j];
+	}
+	// Mutate
+
+	return newSentence;
+}
+console.log(stringedWords[0]);
+console.log(reverseWordOrder("Ishmael me Call"));
+// // => "Call me Ishmael"
+console.log(reverseWordOrder("I use Lâncome on my comb"));
 // => "comb my on Lâncome use I"
 // 🔴 Commit.
 
