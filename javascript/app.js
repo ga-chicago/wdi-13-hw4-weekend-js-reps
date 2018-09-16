@@ -668,7 +668,9 @@ user.purchased.push("Merino jodhpurs");
 console.log(user.purchased[user.purchased.indexOf("Merino jodhpurs")]);
 // 🔴 Commit.
 
+
 // E. Object-within-object
+
 // Remember that you can add an object to an existing object in the same way that you can add any new property/value pair.
 // If we want to give our user a friend with a name and age, we could write:
 // user.friend = {
@@ -677,25 +679,40 @@ console.log(user.purchased[user.purchased.indexOf("Merino jodhpurs")]);
 // }
 // When we console.log user, we would see the friend object added to our user object.
 // Write a friend object into your user object and give the friend a name, age, location, and purchased array (empty for now)
+user.friend = {
+	name: "Lyra Silvertongue",
+	age: 11,
+	location: "Brytain",
+	purchased: []
+}
 // Console.log just the friend's name
+console.log(user.friend.name);
 // Console.log just the friend's location
+console.log(user.friend.location);
 // CHANGE the friend's age to 55
+user.friend.age = 55;
 // The friend has purchased "The One Ring". Use .push() to add "The One Ring" to the friend's purchased array.
+user.friend.purchased.push("The One Ring");
 // The friend has purchased "A latte". Use .push() to add "A latte" to the friend's purchased array.
+user.friend.purchased.push("A latte")
 // Console.log just "A latte" from the friend's purchased array.
+console.log(user.friend.purchased[user.friend.purchased.indexOf("A latte")]);
 // 🔴 Commit.
 
+
 // F. Loops
+
 // Write a for loop that iterates over the User's purchased array (NOT the friend's purchased array), and prints each element to the console.
 // Write a for loop that iterates over the Friend's purchased array, and prints each element to the console.
 // 🔴 Commit.
 
+
 // G. Functions can operate on objects
+
 // Write a single function updateUser that takes no parameters. When the function is run, it should:
 // it should increment the user's age by 1
 // make the user's name uppercase
 // The function does not need a return statement, it will merely modify the user object.
-
 // Write a function oldAndLoud that performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our user object, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called. Call your oldAndLoud function with user as the argument.
 // 🔴 Commit.
 
