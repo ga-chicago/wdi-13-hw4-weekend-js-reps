@@ -293,7 +293,14 @@
 	const getRandomElement = (array) => {
 		return array[Math.floor(Math.random()*array.length)+1];
 	}
-
+//V. Objects
+	//A. Make a user object
+	const user = {
+		name: "Brayden",
+		email: "brayden04@gmail.com",
+		age: 14,
+		purchased: []
+	}
 
 
 
