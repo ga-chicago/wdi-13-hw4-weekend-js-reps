@@ -286,3 +286,37 @@ console.log("Thom is looking fierce in a " + thomsCloset[0] [0] + " , " + "and "
 // Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas
 thomsCloset[1][2] = "Footie Pajamas";
 console.log("Thom is wearing just " + thomsCloset[1][2] + " this winter.");
+//-----------------PART 4-----------------//
+//----------------printGreeting----------------//
+// Do you think you could write a function called printGreeting with a parameter name that returns a greeting with the argument interpolated into the greeting?
+//SKIPT
+//----------------printCool-------------------//
+// Write a function printCool that accepts one parameter, name as an argument. The function should print the name and a message saying that that person is cool.
+const printCool = (name) => {
+	console.log("Hey you, " + name + " you're pretty cool.");
+}
+printCool("Fil");
+//-------------------calculateCube-----------------//
+// Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
+const calculateCube = (num) =>{
+	console.log(Math.pow(num, 3));
+}
+
+calculateCube(3);
+//-------------isVowel------------------//
+// Write a function isVowel that takes a character (i.e. a string of length 1) and 
+// returns true if it is a vowel, false otherwise. The vowel could be upper or lower case.
+
+const isVowel = (a) =>{
+const vowel = ["a", "e", "i", "o", "u"];
+for (let i = 0; i< vowel.length; i++){
+	if (a === vowel[i]) {
+		return true;
+	} else {
+		return false
+	}
+}
+}
+console.log(isVowel("f"));
+
+
