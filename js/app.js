@@ -231,6 +231,15 @@
 	const getTwoLengths = (str1,str2) => {
 		return [str1.length,str2.length];
 	}
+	//F. getMultipleLengths
+	const getMultipleLengths = (strArray) => {
+		let numArray = [];
+		for(let i = 0; i < strArray.length; i++) {
+			numArray.push(strArray[i].length);
+		}
+		return numArray;
+	}
+
 
 
 
