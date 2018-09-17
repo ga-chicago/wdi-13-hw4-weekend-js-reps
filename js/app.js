@@ -465,19 +465,34 @@ getMultipleLengths(testArray);
 //word when did get it to work. so instead, tried a for loop comparing each entry 
 //to an empty string. did the trick. 
 
-testArrayTwo = ['Illinois', 'Annie', 'synechdoche', 'fifi'];
+// testArrayTwo = ['Illinois', 'Annie', 'synechdoche', 'fifi'];
 
-let largest = '';
+// let largest = '';
 
-const printLongestWord = (stringArray) => {
+// const printLongestWord = (stringArray) => {
 
-	for (let i = 0; i < stringArray.length; i++) {
-			if (stringArray[i].length >= largest.length) {
-				largest = stringArray[i];
-			};
-	}; 	console.log(largest);
+// 	for (let i = 0; i < stringArray.length; i++) {
+// 			if (stringArray[i].length >= largest.length) {
+// 				largest = stringArray[i];
+// 			};
+// 	}; 	console.log(largest);
+// };
+
+// printLongestWord(testArrayTwo)
+
+
+//i. transmogrify 
+
+const transmogrify = (x, y, z) => {
+	const transmogrified = (Math.pow((x * y), z));
+	console.log(transmogrified)
 };
 
-printLongestWord(testArrayTwo)
+transmogrify(10, 5, 2);
+
+
+
+
+
 
 
