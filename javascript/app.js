@@ -282,6 +282,17 @@ const isVowel = (character) => {
 console.log(isVowel("e"))
 
 // E.
+const twoArray = [];
+const getTwoLengths = (firstString, secondString) => {
+	twoArray.push(firstString.split("").length);
+	twoArray.push(secondString.split("").length);
+	return twoArray;
+	
+}
+
+console.log(getTwoLengths("lkjkflds", "jkflddkj"));
+
+// F.
 const lengthArray = []
 const getMultipleLengths = (string1, string2) => {
 	lengthArray.push(string1.split("").length);
@@ -290,6 +301,19 @@ const getMultipleLengths = (string1, string2) => {
 };
 
 // G.
+const maxArray = [];
+const maxOfThree = (firstNumber, secondNumber, thirdNumber) => {
+	maxArray.push(firstNumber);
+	maxArray.push(secondNumber);
+	maxArray.push(thirdNumber);
+	maxArray.sort();
+	return maxArray[0];
+
+}
+
+console.log(maxOfThree(9, 6, 19));
+
+// H.
 
 const printLongestWord = (stringArray) => {
 	stringArray.sort();
@@ -305,6 +329,8 @@ const transmogrify = (num1, num2, num3) => {
 }
 
 console.log(transmogrify(5, 3, 2));
+
+// 
 
 
 
