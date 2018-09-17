@@ -430,9 +430,13 @@ user.age = user.age + 1;
 
 user.location = 'Chicago, IL'
 
+user.purchased.push('carbohydrates')
 
+user.purchased.push('piece of mind')
 
+user.purchased.push('Merino jodhpurs')
 
+console.log(user.purchased[2]);
 
 
 
