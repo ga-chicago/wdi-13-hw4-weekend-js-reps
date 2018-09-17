@@ -83,6 +83,17 @@ for (let i = 12; i <= 4000; i++) {
 	}
 }
 
+//B Get Even
+
+for (let i = 0; i <= 100; i++) {
+	if (i % 2 === 0) {
+		console.log(i + "<-- is an even number");
+	} else {
+	console.log(i);
+	} 
+}
+
+
 
 
 
