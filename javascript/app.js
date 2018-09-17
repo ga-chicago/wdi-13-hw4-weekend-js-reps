@@ -142,6 +142,16 @@ const quotes = ["You can't handle the truth", "You haq me at hello", "Life is li
 // test
 console.log(quotes);
 
+// Part C.
+const randomThings = [1, 10, "Hello", true];
+// 1. You can access using -->
+randomThings[0];
+// 2.
+randomThings[2] = "World";
+// 3.
+console.log(randomThings[2]);
+
+
 
 
 
