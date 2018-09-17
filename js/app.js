@@ -532,6 +532,8 @@ const reverseWordOrder = (string) => {
 }
 
 // console.log(reverseWordOrder('matilda has come'));
+//Couldn't quite figure out how to change array order
+//This is what i could come up with
 
 
 //K. Get down and diry with Math random
@@ -714,3 +716,6 @@ const oldAndLoud = (person) => {
 }
 oldAndLoud(user);
 console.log(user);
+
+//ALL DONE! THAT WAS FUN....
+
