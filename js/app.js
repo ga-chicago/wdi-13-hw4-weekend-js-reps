@@ -572,14 +572,17 @@ const user = {
 	purchased: []
 };
 
+
 //b. 
 
 user.email = 'finnrulez@ooo.com';
 user.age++;
 
+
 //c. 
 
 user.location = 'Land of Ooo';
+
 
 //d. 
 
@@ -590,7 +593,55 @@ user['purchased'].push('merino jodhpurs');
 console.log(user.purchased[2]);
 
 
+//e. 
 
+//1. 
+
+user.friend = {
+    name: "Jake",
+    age: 35,
+    purchased: [],
+    location: 'Land of Ooo'
+}
+
+//2. 
+
+console.log(user.friend.name);
+
+//3. 
+
+console.log(user.friend.location); 
+
+//4. 
+
+user.friend['age'] = 55; 
+
+//5. 
+
+user.friend.purchased.push('The One Ring');
+
+//6. 
+
+user.friend.purchased.push('A latte');
+
+//7. 
+
+console.log(user.friend.purchased[1]);
+
+
+//f. 
+
+//1. 
+
+for (i = 0; i < user.purchased.length; i++) {
+	console.log(user.purchased[i])
+};
+
+//2.
+
+for (i = 0; i < user.friend.purchased.length; i++) {
+	console.log(user.friend.purchased[i])
+};
 
 
 
