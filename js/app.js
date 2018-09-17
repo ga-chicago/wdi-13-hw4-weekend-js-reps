@@ -441,24 +441,87 @@ const isVowel = (letter) => {
 };
 console.log(isVowel('f'));
 
+//E. getTwoLengths
+
+// Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
+
+
+const getTwoLengths = (a,b) => {
+console.log(a.length, b.length);
+
+}
+getTwoLengths('hello','sir');
+
+
+//F. getMultipleLengths
+
+// Write a function getMultipleLengths that accepts a single parameter as an argument: an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
+
+
+const getMultipleLengths = (string) => {
+    let stringLengthArray = [];
+    for(let i = 0; i < string.length; i++) {
+        let array = string[i];
+        stringLengthArray.push(array.length);
+    }
+    return stringLengthArray;
+}
+
+console.log(getMultipleLengths(['So','how', 'have','you', 'been']));
+
+//G. maxofThree
+
+// Define a function maxOfThree that takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned.
+
+const maxOfThree = (num1,num2,num3) => {
+if(num1 && num2 < num3) {
+  console.log(num3);
+} if (num2 && num3 < num1) {
+  console.log(num1);
+} if (num3 && num1 < num2) {
+  console.log(num2);
+}
+}
+//It doesnt look great..but it works
+maxOfThree(11,11,8)
+
+//H. printLongestWord
+
+//Write a function printLongestWord that accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
+
+// const printLongestWord = (array) => {
+// let strings = [];
+// // let length = 0;
+// let longest;
+// for (let i = 0; i < strings.length; i++) {
+//   if(strings[i] > length) {
+//     let length = strings[i].length;
+//     longest = strings[i];
+//   }
+//   return longest;
+// }
+// }
+// // console.log(longest);
+// console.log(printLongestWord(['what','could','i','possibly','do']));
 
 
 
 
 
+function printLongestWord(array) {
+  var longestWord = "";
 
+  array.forEach(function(word) {
+    if(word.length > longestWord.length) {
+      longestWord = word;
+    }
+  });
 
+  return longestWord;
+}
 
-
-
-
-
-
-
-
-
-
-
+var word = printLongestWord(["What","a","long", "weekend", "that", "was", "over", "too", "quickly"]);
+console.log(word);
 
 
 
