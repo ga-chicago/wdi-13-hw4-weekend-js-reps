@@ -381,30 +381,30 @@
 
 //this one is tricky - gonna need some psuedo
 
-const testArray = ['Jeremy', 'boba', 'microscope', 'pancake']
+// const testArray = ['Jeremy', 'boba', 'microscope', 'pancake']
 
-const getMultipleLengths = (stringArray) => {
+// const getMultipleLengths = (stringArray) => {
 
-// while loop
-// while i < stringArray.length 
-// save individual string stringArray[i] as variable
-// save .length of individual string as new variable
-// push new variable to empty numArray
-// log numArray
+// // while loop
+// // while i < stringArray.length 
+// // save individual string stringArray[i] as variable
+// // save .length of individual string as new variable
+// // push new variable to empty numArray
+// // log numArray
 
-	let numArray = [];
-	let i = 0;
-	while (i < stringArray.length) {
-		let indivString = stringArray[i];
-		let lengthNum = indivString.length;
-		numArray.push(lengthNum);
-		i++;
-	}; 	
-		console.log (numArray)
+// 	let numArray = [];
+// 	let i = 0;
+// 	while (i < stringArray.length) {
+// 		let indivString = stringArray[i];
+// 		let lengthNum = indivString.length;
+// 		numArray.push(lengthNum);
+// 		i++;
+// 	}; 	
+// 		console.log (numArray)
 
-};
+// };
 
-getMultipleLengths(testArray);
+// getMultipleLengths(testArray);
 
 
 //g. maxOfThree
@@ -483,14 +483,40 @@ getMultipleLengths(testArray);
 
 //i. transmogrify 
 
-const transmogrify = (x, y, z) => {
-	const transmogrified = (Math.pow((x * y), z));
-	console.log(transmogrified)
-};
+//  const transmogrify = (x, y, z) => {
+// 	const transmogrified = (Math.pow((x * y), z));
+// 	console.log(transmogrified)
+// };
 
-transmogrify(10, 5, 2);
+// transmogrify(10, 5, 2);
 
+//j. reverseWordOrder v2
 
+let stagingArrayOne = [];
+let stagingArrayTwo = [];
+let reversedString = '';
+
+const reverseWordOrder = (string) => {
+
+//psuedo: 
+// create new const reversedString (above)
+// loop backwards (i--) from string.length
+
+	// for (i = string.length; i >= 0; i--) {
+	// 	reversedString += string[i];
+	// }; 
+// argh wait this reverse letter order too. hmm...
+// ok, can i split the string into an array of words without .split()? 
+// maybewith something based around ' '...
+
+	for (let i = string.length - 1; i >= 0; i--) {
+		stagingArrayOne.splice(0, 0, string[i]);
+	}; 
+	console.log (stagingArrayOne);
+}; 
+
+// that's as far as I can get. Been at this one for several hours, so I'm moving on for now. 
+reverseWordOrder('so much depends upon the red wheelbarrow');
 
 
 
