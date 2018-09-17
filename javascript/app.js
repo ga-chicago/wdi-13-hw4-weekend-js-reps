@@ -162,3 +162,19 @@ console.log(ourClass[5]);
 //E.
 
 //1
+const myArray = [5, 10, 500, 20];
+myArray.push("Egon", "20");
+console.log(myArray[4]);
+//2 
+myArray.shift();
+//3 
+myArray.unshift("Bob Marley");
+console.log(myArray[0]);
+//4 
+myArray.splice(4, 5);
+console.log(myArray);
+//5 Yes this does mututate the array. It takes the elements, reverses them, creating a new array. It does not apply the values to the original array.
+myArray.reverse()
+console.log(myArray);
+
+//F Biggie Smalls
