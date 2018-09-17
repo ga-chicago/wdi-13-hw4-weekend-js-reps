@@ -159,7 +159,7 @@ ourClass[4] = "Octocat";
 ourClass.push("Cloud City");
 console.log(ourClass[5]);
 
-//E.
+//E.Mix it up
 
 //1
 const myArray = [5, 10, 500, 20];
@@ -178,3 +178,41 @@ myArray.reverse()
 console.log(myArray);
 
 //F Biggie Smalls
+
+const number = 105;
+if (number < 100) {
+	console.log("Little number");
+} else {
+	console.log("Big number");
+}
+
+//G Monkey in the middle
+const monkeyNumber = 6;
+
+if (monkeyNumber < 5) {
+	console.log("Little number");
+} else if (monkeyNumber > 10) {
+	console.log("Big Number");
+} else {
+	console.log("Monkey");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
