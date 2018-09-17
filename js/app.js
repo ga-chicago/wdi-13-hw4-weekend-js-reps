@@ -9,7 +9,7 @@
 
 // 2. you can't change the value of just any variable - 
 // const, for example, can't be redclared, but let can!
-// all you have to do is declare it afresh. 
+// all you have to do is declare it a fresh. 
 
 // 3. you reassign the value? I think that's what you're asking
 
@@ -492,28 +492,58 @@
 
 //j. reverseWordOrder v2
 
-// let stagingArrayOne = [];
-// let stagingArrayTwo = [];
-// let reversedString = '';
+let reversedString = '';
 
-// const reverseWordOrder = (string) => {
+const reverseWordOrder = (str) => { //avoid using the whole word "string"
+
+	// build output string as we go
+
+	let output = "";
+
+	// keep track current word
+
+	let currentWord = "";
+
+	// loop over characters in a string
+
+	for(let i = 0; i < str.length; i++) {
+		if (str[i] === " ") {
+			output = currentWord + " " + output;
+			currentWord = "";
+		} else {
+			currentWord = currentWord + str[i];
+			if (i === string.length - 1) {
+				output = currentWord + " " + output;
+			}
+		}
+	}
+}
+
+console.log(reverseWordOrder("plums in the damn ice box")) ;
+
+	// when you get a space, 
+		//add the current word to the output
+		//and a space in the proper place
+	//if the current letter isn't a space
+	//add it to the current word
+
+//vv old stuff ^^ new code from class
 
 // //psuedo: 
 // // create new const reversedString (above)
 // // loop backwards (i--) from string.length
 
-// 	// for (i = string.length; i >= 0; i--) {
-// 	// 	reversedString += string[i];
-// 	// }; 
-// // argh wait this reverse letter order too. hmm...
-// // ok, can i split the string into an array of words without .split()? 
+	// for (i = string.length; i >= 0; i--) {
+	// 	reversedString += string[i];
+	// }; 
+// argh wait this reverse letter order too. hmm...
+// ok, can i split the string into an array of words without .split()? 
 // // maybewith something based around ' '...
 
 // 	for (let i = string.length - 1; i >= 0; i--) {
 // 		stagingArrayOne.splice(0, 0, string[i]);
 // 	}; 
 // 	console.log (stagingArrayOne);
-// }; 
 
 // // that's as far as I can get. Been at this one for several hours, so I'm moving on for now. 
 // reverseWordOrder('so much depends upon the red wheelbarrow');
