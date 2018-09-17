@@ -353,3 +353,11 @@ const printLongestWord = (arrayOfStrings) => {
 console.log(printLongestWord(["Longest", "Word", "if", "You", "Please"]));
 
 //I Transmogrify
+
+const transmogrify = (number1, number2, number3) => {
+	let transmogrified = (number1 * number2) ** number3;
+	//also math is bad and it should feel bad. :( UGH, that **, you got to be kitten me. 
+	return transmogrified;
+}
+
+console.log(transmogrify(4, 5, 6)); 
