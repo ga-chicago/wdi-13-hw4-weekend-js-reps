@@ -522,18 +522,42 @@ console.log(transmogrify(5,3,2))
 // See if you can do it without googling.
 
 // Remember: Jim showed you today that you can index directly into a string:
+//In class review of reverseWordOrder
+const reverseWordOrder = (str) => {
+  //build output string as we go
+let output = ""
+  //keep track of the "current word"
+let currentWord ="";
+  //loop over characters in string
+  for (let i = 0; i<str.length; i++){
+    //when we get to a spce 
+    if (str[i] === " "){
+      //add space to output in proper place (unless this is the first word)
 
-const reverseWordOrder = (string) => {
-    let reverse = '';
-    for(let i = string.length - 1; i >= 0; i--) {
-        reverse += string[i];
+      // add the "current word" to the putput
+      if (output == ""){
+
+      } else {}
+        output = currentWord + " " + output 
+        //clear out current word
+        currentWord = ""
+    } else {
+        currentWord = currentWord + str[i]
+      //if its the last character in the string 
+        //add currentWord to ouput
+        if(i === str.length -1)
+        {
+          output = currentWord + ' ' + output
+        } 
     }
-    return reverse;
+      //if the current letter isn't a space
+        // add to current word
+  }
+        return output
 }
+console.log(reverseWordOrder("current events katrina hurrican tornado fire"));
 
-// console.log(reverseWordOrder('matilda has come'));
-//Couldn't quite figure out how to change array order
-//This is what i could come up with
+
 
 
 //K. Get down and diry with Math random
@@ -703,7 +727,7 @@ const updateUser = () => {
 // it should increment the user's age by 1
 user.age = user.age +1
 // make the user's name uppercase
-user.aname = user.name.toUpperCase()
+user.name = user.name.toUpperCase()
 }
 updateUser();
 console.log(user);
