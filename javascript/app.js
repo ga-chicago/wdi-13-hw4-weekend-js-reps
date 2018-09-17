@@ -249,10 +249,18 @@ thomsCloset[1][2] = "Footie Pajamas";
 //A printGreeting
 //done it... 
 
+//B printCool
+const printCool = (name) => {
+	console.log(`${name} is cool`);
+}
+printCool('Ashley');
 
+//C calculateCube
 
-
-
+const calculateCube = (number) => {
+	console.log(Math.pow(number, 3));
+};
+calculateCube(6);
 
 
 
