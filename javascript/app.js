@@ -130,6 +130,18 @@ console.log(bank_account);
 // Part E.
 // I've already done this problem
 
+// III. Arrays and Control Flow
+// Part A.
+// 1. Elements
+// 2. No
+// 3. Contact numbers in your cell phone.
+
+// Part B.
+const quotes = ["You can't handle the truth", "You haq me at hello", "Life is like a box of choclates"];
+
+// test
+console.log(quotes);
+
 
 
 
