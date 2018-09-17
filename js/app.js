@@ -492,31 +492,87 @@
 
 //j. reverseWordOrder v2
 
-let stagingArrayOne = [];
-let stagingArrayTwo = [];
-let reversedString = '';
+// let stagingArrayOne = [];
+// let stagingArrayTwo = [];
+// let reversedString = '';
 
-const reverseWordOrder = (string) => {
+// const reverseWordOrder = (string) => {
 
-//psuedo: 
-// create new const reversedString (above)
-// loop backwards (i--) from string.length
+// //psuedo: 
+// // create new const reversedString (above)
+// // loop backwards (i--) from string.length
 
-	// for (i = string.length; i >= 0; i--) {
-	// 	reversedString += string[i];
-	// }; 
-// argh wait this reverse letter order too. hmm...
-// ok, can i split the string into an array of words without .split()? 
-// maybewith something based around ' '...
+// 	// for (i = string.length; i >= 0; i--) {
+// 	// 	reversedString += string[i];
+// 	// }; 
+// // argh wait this reverse letter order too. hmm...
+// // ok, can i split the string into an array of words without .split()? 
+// // maybewith something based around ' '...
 
-	for (let i = string.length - 1; i >= 0; i--) {
-		stagingArrayOne.splice(0, 0, string[i]);
-	}; 
-	console.log (stagingArrayOne);
-}; 
+// 	for (let i = string.length - 1; i >= 0; i--) {
+// 		stagingArrayOne.splice(0, 0, string[i]);
+// 	}; 
+// 	console.log (stagingArrayOne);
+// }; 
 
-// that's as far as I can get. Been at this one for several hours, so I'm moving on for now. 
-reverseWordOrder('so much depends upon the red wheelbarrow');
+// // that's as far as I can get. Been at this one for several hours, so I'm moving on for now. 
+// reverseWordOrder('so much depends upon the red wheelbarrow');
+
+
+//k. math.random 
+
+//NOTE: you can toggle between these by commenting and uncommenting them - they all have the same name, and are invoked at the bottom of the answer:
+
+//1.
+
+// const generateRandomNum = () => {
+// 	console.log(Math.floor(Math.random() * 10));
+// }; 
+
+//2. 
+
+// const generateRandomNum = () => {
+// 	console.log(Math.floor(Math.random() * (90)) + 10);
+// }; 
+
+//3. 
+
+// const generateRandomNum = () => {
+// 	console.log(Math.floor(Math.random() * (12735)) + 532);
+// }; 
+
+//4. 
+
+// const generateRandomNum = () => {
+// 	console.log(Math.random() * 10);
+// }; 
+
+// generateRandomNum();
+
+//5. 
+
+// const quotes = ['whose woods these are I think I know', 'his house is in the village though', 'he will not see me stopping here', 'to watch his woods fill up with snow', 'The woods are lovely, dark and deep', 'But I have promises to keep', 'And miles to go before I sleep'];
+
+// const getRandomElement = (array) => {
+// 	let j = (Math.floor(Math.random() * array.length));
+// 	console.log(array[j]);
+// };
+
+// getRandomElement(quotes); 
+
+
+//Part V:
+
+//a. 
+
+const user = {
+	name: 'Finn',
+	email: 'finn@ooo.email',
+	age: 17,
+	purchased: []
+};
+
+
 
 
 
