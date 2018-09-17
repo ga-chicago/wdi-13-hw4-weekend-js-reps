@@ -196,6 +196,14 @@ if(integer < 100) {
 	console.log("big number");	
 }
 
+const num = 9;
+if(num < 5) {
+	console.log("little number");
+} else if (num > 10) {
+	console.log("big number");
+} else {
+	console.log("monkey");
+}
 
 
 
