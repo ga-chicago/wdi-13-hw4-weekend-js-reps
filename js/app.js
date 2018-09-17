@@ -572,7 +572,10 @@ const user = {
 	purchased: []
 };
 
+//b. 
 
+user.email = 'finnrulez@ooo.com';
+user.age++;
 
 
 
