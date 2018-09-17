@@ -287,7 +287,22 @@ const getTwoLengths = (string1, string2) => {
 }
 getTwoLengths("Ashley", "Fueger");
 
+//F getMultipleLengths
 
+const getMultipleLengths = (arrayString) => {
+	const familyArray = [];
+for (let i = 0; i < arrayString.length; i++) {
+	familyArray.push(arrayString[i].length);
+	}
+	console.log(familyArray);
+	return familyArray;
+} 
+
+
+//I tend to forget the return!!
+	
+
+getMultipleLengths(["Ashley", "Katya", "James", "Boris", "Petrus", "Tetris the Roomba"]);
 
 
 
