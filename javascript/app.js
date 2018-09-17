@@ -322,5 +322,34 @@ maxOfThree(4, 5, 6);
 // JSHINT IS MY FRIEND
 
 
+//H printLongestWord
+/* I don't understand why this isn't working... I found a different solution but... yeah. 
+const printLongestWord = (arrayOfStrings) => {
+	let longestlength = 0;
+	for (let i = 0; i < arrayOfStrings.length; i++) {
+		if (arrayOfStrings[i] > longestlength) {
+			longestlength = arrayOfStrings[i].length;
+			break;
+		}
+	} console.log(longestlength);
+};
+*/
+/* Couldn't get this to work either... 
 
+const printLongestWord = (arrayOfStrings) => {
+	arrayOfStrings.sort(function(a, b) { return b.length - a.length; })[0];
+} return arrayofStrings;
+*/
 
+//omg I spent like ten minutes trying to diagnose this and it turned out I had lower cased the "of" in array of strings. Kept showing up as arrayOfStrings being undefined. 
+const printLongestWord = (arrayOfStrings) => {
+	let longestString = " ";
+	arrayOfStrings.forEach(function(strings) {
+		if (strings.length >= longestString.length) {longestString = strings;
+			}
+		});
+	return longestString;
+};
+console.log(printLongestWord(["Longest", "Word", "if", "You", "Please"]));
+
+//I Transmogrify
