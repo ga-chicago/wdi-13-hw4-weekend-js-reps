@@ -581,6 +581,14 @@ user.age++;
 
 user.location = 'Land of Ooo';
 
+//d. 
+
+user['purchased'].push('carbohydrates');
+user['purchased'].push('peace of mind');
+user['purchased'].push('merino jodhpurs');
+
+console.log(user.purchased[2]);
+
 
 
 
