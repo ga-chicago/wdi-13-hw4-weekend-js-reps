@@ -297,12 +297,30 @@ for (let i = 0; i < arrayString.length; i++) {
 	console.log(familyArray);
 	return familyArray;
 } 
-
+getMultipleLengths(["Ashley", "Katya", "James", "Boris", "Petrus", "Tetris the Roomba"]);
 
 //I tend to forget the return!!
-	
 
-getMultipleLengths(["Ashley", "Katya", "James", "Boris", "Petrus", "Tetris the Roomba"]);
+//G Maxofthree
+
+const maxOfThree = (number1, number2, number3) => {
+
+	if (number1 >= number2 && number1 >= number3) {
+		console.log(number1);
+		return number1;
+	} else if (number2 >= number1 && number2 >= number3) {
+		console.log(number2);
+		return number2;
+	} else  {
+		console.log(number3);
+		return number3;
+	}
+
+
+};
+maxOfThree(4, 5, 6);
+// JSHINT IS MY FRIEND
+
 
 
 
