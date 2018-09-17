@@ -401,3 +401,33 @@ const reverseWordOrder = (string) => {
 	return newString;
 }
 console.log(reverseWordOrder("hey this is a string"));
+//my attempt. i couldn't figure out how to make it so it reverses the words themselves.
+
+//-------------------- Get down and dirty with Math.random()------------------//
+// Write a function that will return a random integer between 1 and 10. Test it.
+// const randInt = () => {
+// 	return Math.floor(Math.random()*10) + 1//if you don't add one then the function won't return up to the highest number..i think;
+// }
+// console.log(randInt());
+// Write a function that will return a random integer between 10 and 100. Test it.
+// const randInt = (min, max) => {
+// 	return (Math.random()*(max-min+1) + min);
+// }
+// console.log(randInt(10,100));
+// Write a function that will return a random number between 532 and 13267. Test it.
+// const randInt = (min, max) => {
+// 	return Math.floor(Math.random()*(max-min+1) + min);
+// }
+// console.log(randInt(532,13267));
+// Write a function that will return a random number between 1 and 10. Test it.
+// const randInt = (min, max) => {
+// 	return Math.floor(Math.random()*(max-min+1) + min//if you don't do + min at the end it won't include the max number);
+// }
+// console.log(randInt(1,10));
+// Add a few more quotes to the quotes array from question III-B-1 above. Write a function that will take an array as a parameter, and return a random element from that array. Call your function a few times, passing in the quotes array. Give it a nice semantic name like getRandomElement.
+
+const quotes = ["quote1", "quote2", "quote3", "quote4", "quote5", "quote6"];
+const getRandomElement = (quotes) => {
+	return quotes[Math.floor(Math.random()*quotes.length)];
+} 
+console.log(getRandomElement(quotes));
