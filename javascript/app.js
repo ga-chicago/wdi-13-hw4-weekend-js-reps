@@ -361,3 +361,18 @@ const transmogrify = (number1, number2, number3) => {
 }
 
 console.log(transmogrify(4, 5, 6)); 
+
+//J reverseWordOrder
+//without split, reverse or join??? NOOOOOOO. DU. DU HAST. DU HAST MICH. This problem is exactly like a rammstein concert with a burning cross falling on me and everything. 
+
+const reverseWordOrder = (string) => {
+	let newString = " ";
+for (let i = string.length - 1; i >= 0; i--) {
+		newString += string[i];
+
+	}
+	console.log(newString);
+	return newString;
+}
+
+reverseWordOrder("Hello");
