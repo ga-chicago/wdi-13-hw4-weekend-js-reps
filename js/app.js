@@ -507,13 +507,31 @@ let word = printLongestWord(["What","a","long", "weekend", "that", "was", "over"
 console.log(word);
 
 
+//I. transmogrify
+
+const transmogrify = (num1,num2,num3) => {
+
+}
 
 
 
+//J. reverseWordOrder v2
 
+//Without using .split(), .reverse(), or .join(), write a function reverseWordOrder that accepts a single argument, a string. The function should return a string with the order of the words reversed. Don't worry about punctuation.
 
+// See if you can do it without googling.
 
+// Remember: Jim showed you today that you can index directly into a string:
 
+const reverseWordOrder = (string) => {
+    let reverse = '';
+    for(let i = string.length - 1; i >= 0; i--) {
+        reverse += string[i];
+    }
+    return reverse;
+}
+
+console.log(reverseWordOrder('matilda has come'));
 
 
 
