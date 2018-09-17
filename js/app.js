@@ -155,7 +155,8 @@ console.log(bankAccount)
 
 //	B. Easy Does It
 
-const quotes = ["We are going to need a bigger boat", "Do or do not. There is no try.", "GET TO THE CHOPPA!"];
+const quotes = ["We are going to need a bigger boat", "Do or do not. There is no try.", "GET TO THE CHOPPA!", 
+"I'm gettin' too old for this shit", "Yippee ki-yay, mother fucker!"];
 
 // C. Accessing Elements
 
@@ -377,4 +378,55 @@ const reverseWordOrder = (newString) => {
 }
 
 console.log(reverseWordOrder("Ishmael me Call"));
+
+// Get down and dirty with Math.random()
+
+// 1.
+const randomOneTen = () => {
+	let oneTen = Math.floor(Math.random() * 10) +1;
+	return oneTen;
+}
+console.log(randomOneTen());
+
+// 2.
+const randomTenHundred = () => {
+	let tenHundred = Math.floor(Math.random() * 90 + 1) + 10;
+	return tenHundred;
+}
+console.log(randomTenHundred());
+
+// 3. 
+const randomStrangNumbers = () => {
+	let strangeNumbers = Math.floor(Math.random() * 12735 + 1) + 532;
+	return strangeNumbers;
+}
+console.log(randomStrangNumbers());
+
+// 4.
+const randomOneTenNum = () => {
+	let oneTenNum = Math.random() * 10 +1;
+	return oneTenNum;
+}
+console.log(randomOneTenNum());
+
+// 5.
+
+const getRandomElement = (array) => {
+	return array[Math.floor(Math.random() * array.length)];
+}
+console.log(getRandomElement(quotes))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
