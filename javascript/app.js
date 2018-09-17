@@ -289,8 +289,14 @@ const getMultipleLengths = (string1, string2) => {
 	return lengthArray;
 };
 
+// G.
 
-console.log(getMultipleLengths("Andy", "word"));
+const printLongestWord = (stringArray) => {
+	stringArray.sort();
+	return stringArray[0];
+}
+
+console.log(printLongestWord(["lllll", "jjjjjjj", "hello hello hello"]));
 
 
 
