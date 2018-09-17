@@ -431,7 +431,7 @@ console.log(user.purchased[2]);
 
 //E Object within object
 //1
-user.friend = {
+const user.friend = {
 	name: "Jenny",
 	age: 24,
 	location: "Madison",
@@ -454,13 +454,28 @@ user.friend.purchased.push("A latte");
 console.log(user.friend.purchased[user.friend.purchased[1]);
 
 //F Loops
-//1
-for ( i = 0; i < user.purchased.length; i++) {
+//1 I know these should work... 
+for (let i = 0; i < user.purchased.length; i++) {
 	console.log(user.purchased[i]);
 }
 //2
-for ( i = 0; i < user.friend.purchased.length; i++) {
+for (let i = 0; i < user.friend.purchased.length; i++) {
 	console.log(user.friend.purchased[i]);
 }
 
 //G Functions can operate on objects
+
+//1 /* */
+const updateUser = () => {
+	user.age += 1;
+	user.name = user.name.toUpperCase() 
+
+}
+
+//2 
+
+const oldAndLoud = (person) => {
+	person.age += 1; 
+	//almost did person.age = person.age + 1
+	person.name = person.name.toUpperCase();
+}
