@@ -361,6 +361,10 @@ const user = {
 	purchased: []
 }
 
+user.email = "andy.prudhomme@gmail.com";
+user.age ++;
+
+
 
 
 
