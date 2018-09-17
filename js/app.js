@@ -416,7 +416,14 @@ const getRandomElement = (array) => {
 }
 console.log(getRandomElement(quotes))
 
+// User
 
+const user = {
+	name: 'Chris',
+	email: 'tophy912@gmail.com',
+	age: 33,
+	purchased: []
+}
 
 
 
