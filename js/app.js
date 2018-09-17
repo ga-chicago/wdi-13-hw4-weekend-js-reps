@@ -210,9 +210,9 @@ for (let i = 0; i <= 100; i++) {
 //A. Create an array that contains three quotes and store it in a variable called quotes.
 
 
-let array = ['Love for all, Hatred for none', 'Every moment is a fresh beggining', 'Die with memories, not dreams'];
+// let array = ['Love for all, Hatred for none', 'Every moment is a fresh beggining', 'Die with memories, not dreams'];
 
-let quotes = array;
+// let quotes = array;
 
 // console.log(quotes);
 
@@ -532,6 +532,84 @@ const reverseWordOrder = (string) => {
 }
 
 console.log(reverseWordOrder('matilda has come'));
+
+
+//K. Get down and diry with Math random
+
+
+// a. Write a function that will return a random integer between 1 and 10. Test it.
+
+// const randomInteger = () => { 
+//   return Math.floor(Math.random()*10)+1;
+// }
+
+// console.log(randomInteger());
+
+// b. Write a function that will return a random integer between 10 and 100. Test it.
+
+// function getRandomInteger(min, max) {
+//   return Math.floor(Math.random()*(max - min + 1) + min);
+// }
+// console.log(getRandomInteger(10,100))
+
+//  c. Write a function that will return a random number between 532 and 13267. Test it.
+
+// function getRandomInteger(min, max) {
+//   return Math.floor(Math.random()*(max - min + 1) + min);
+// }
+// console.log(getRandomInteger(532,13267))
+
+//d.  Write a function that will return a random number between 1 and 10. Test it.
+
+// const randomInteger = () => { 
+//   return Math.random()*10;
+// }
+
+// console.log(randomInteger());
+
+
+// Add a few more quotes to the quotes array from question III-B-1 above. Write a function that will take an array as a parameter, and return a random element from that array. Call your function a few times, passing in the quotes array. Give it a nice semantic name like getRandomElement.
+
+// let array = ['Love for all, Hatred for none', 'Every moment is a fresh beggining', 'Die with memories, not dreams'];
+
+// array.push('There is nothing permanent except change', 'You cannot shake hands with a clenched fist.', 'Learning never exhausts the mind.')
+// console.log(array);
+let quotes = ['Love for all, Hatred for none', 'Every moment is a fresh beggining', 'Die with memories, not dreams', 'There is nothing permanent except change', 'You cannot shake hands with a clenched fist','Learning never exhausts the mind'];
+const getRandomElement = (quotes) => {
+  
+return quotes[Math.floor(Math.random()*quotes.length)]
+}
+console.log(getRandomElement(quotes));
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
