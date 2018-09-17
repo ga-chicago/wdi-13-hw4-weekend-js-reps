@@ -427,3 +427,28 @@ user.purchased.push("peace of mind");
 user.purchased.push("Merino jodhpurs");
 //4
 console.log(user.purchased[2]);
+
+
+//E Object within object
+//1
+user.friend = {
+	name: "Jenny",
+	age: 24,
+	location: "Madison",
+	purchased = []
+
+}
+//2
+console.log(user.friend.name);
+
+//3
+console.log(user.friend.location);
+
+//4 
+user.friend.age = 55;
+//5
+user.friend.purchased.push("The One Ring");
+//6
+user.friend.purchased.push("A latte");
+//7
+console.log(user.friend.purchased[user.friend.purchased[1]);
