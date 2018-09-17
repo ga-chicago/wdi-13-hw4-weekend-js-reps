@@ -136,4 +136,14 @@ console.log("Well I suppose that's a lot better. I have " + bank_account_2 + " i
 
 //B Easy Does it 
 
-const quotes = ['We waste time looking for the perfect lover, instead of creating the perfect love.', 'There is no such thing as a weird human being, Its just that some people require more understanding than others.', 'Dont trust anybody whod rather be grammatically correct than have a good time.']
+const quotes = ['We waste time looking for the perfect lover, instead of creating the perfect love.', 'There is no such thing as a weird human being, Its just that some people require more understanding than others.', 'Dont trust anybody whod rather be grammatically correct than have a good time.'];
+
+//C accessing elements
+
+const randomThings = [1, 10, "hello", true];
+//1
+console.log(randomThings[0]);
+//2
+randomThings[2] = "World";
+//3 
+console.log(randomThings[2]);
