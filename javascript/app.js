@@ -256,16 +256,36 @@ const printCool = (name) => {
 printCool('Ashley');
 
 //C calculateCube
-
+//at first I put console log outside the loop, but then I fixed that. 
 const calculateCube = (number) => {
 	console.log(Math.pow(number, 3));
 };
 calculateCube(6);
 
 
+//D isVowel
 
+const isVowel = (character) => {
+	const vowels = ['a', 'e', 'i', 'o', 'u'];
+	if (character == vowels) {
+		console.log(character);
+		return true;
+	} else {
+		console.log(false);
+		return false;
+	}
+}
+isVowel('t');
 
+//E getTwoLengths
 
+const getTwoLengths = (string1, string2) => {
+	thisArray = [];
+	thisArray.push(string1.length);
+	thisArray.push(string2.length);
+	console.log(thisArray);
+}
+getTwoLengths("Ashley", "Fueger");
 
 
 
