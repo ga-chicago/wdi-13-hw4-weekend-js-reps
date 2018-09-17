@@ -644,5 +644,24 @@ for (i = 0; i < user.friend.purchased.length; i++) {
 };
 
 
+//g. 
+
+//1.
+
+const updateUser = () => {
+	user.name = user.name.toUpperCase(); 
+	user.age++;
+}
+
+updateUser();
+
+//2. 
+
+const oldAndLoud = (person) => {
+	user.purchased.push('Ear Horn');
+	user.age += 40; 
+};
+
+oldAndLoud(user);
 
 
