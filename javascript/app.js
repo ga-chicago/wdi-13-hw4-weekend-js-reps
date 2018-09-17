@@ -187,6 +187,15 @@ myArray.reverse();
 // This did mutate the array, which means to change some property or this array without redefining the variable itself. For example, changing the length of the array, the order of the elements, or changing the elements themselves would all be mutations
 // The reverse method returns the reversed array as a result.
 
+// Part F.
+// 1.
+const integer = 89;
+if(integer < 100) {
+	console.log("little number");
+} else {
+	console.log("big number");	
+}
+
 
 
 
