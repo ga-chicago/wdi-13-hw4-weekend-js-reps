@@ -125,3 +125,13 @@ for  (let j = 0; j <= 100; j++) {
 }
 console.log("Well I suppose that's a lot better. I have " + bank_account_2 + " in my account. Alexa play Prince");
 
+// E Multiples of 3 and 5
+// I've done it. 
+
+//III. Arrays and control flow
+//A.
+//1. Elements
+//2. Yes
+//3. items on a website, prices on a website, lists of things that have properties to them
+
+//B Easy Does it 
