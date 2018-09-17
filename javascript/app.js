@@ -379,11 +379,37 @@ reverseWordOrder("Hello");
 
 //K Get down and dirty with Math.random(). 
 
-
+//1
 const returnInteger = () => {
 	return Math.floor(Math.random() * 10);
 }
+//2
+const returnInteger2 = () => {
+	return Math.floor(Math.random()* 90) + 10;
+}
+//3 
+const returnInteger3 = () => {
+	return Math.floor(Math.random() * 12735) + 532;
+}
 
+//4 
+const returnInteger4 = () => {
+	return Math.floor(Math.random() * 10) + 1;
+}
 
+//5 
+const getRandomElement = (array) => {
+	return array[Math.floor(Math.random() * array.length)+ 1];
+}
+// Objects
 
-
+//A
+const user = {
+	name: "Joe",
+	email: "Joe@gmail.com",
+	age: "20",
+	purchased: []
+}
+//B Update the User
+user.email = "Joe.Bob@gmail.com";
+user.age++;
