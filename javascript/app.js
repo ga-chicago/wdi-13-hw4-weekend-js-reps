@@ -353,7 +353,13 @@ const getRandomElement = () => {
 
 console.log(getRandomElement);
 
-
+// Objects
+const user = {
+	name: "Andy",
+	age: 27,
+	email: "aprudhomme9@gmail.com",
+	purchased: []
+}
 
 
 
