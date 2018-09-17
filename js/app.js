@@ -426,7 +426,11 @@ const user = {
 }
 
 user.email = 'Tophy03@gmail.com';
-user.age = user.age + 1
+user.age = user.age + 1;
+
+user.location = 'Chicago, IL'
+
+
 
 
 
