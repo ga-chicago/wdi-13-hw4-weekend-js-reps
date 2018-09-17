@@ -391,6 +391,10 @@ console.log(words);
 // The transmogrified result of three numbers is the product of the first two numbers, raised to the power of the third number.
 // For example, the transmogrified result of 5, 3, and 2 is (5 times 3) to the power of 2 is 225.
 
+const transmogrify = (num1, num2, num3) => {
+	return Math.pow(num1*num2, num3)
+}
+console.log(transmogrify(10,6,4));
 //--------------reverseWordOrder---------------//
 
 const reverseWordOrder = (string) => {
