@@ -164,6 +164,31 @@ ourClass.push("Cloud City");
 // check
 console.log(ourClass);
 
+// Part E.
+
+const myArray = [5, 10, 500, 20];
+// 1.
+myArray.push("Egon");
+myArray.push("Good dog");
+
+// 2.
+myArray.shift();
+console.log(myArray);
+
+// 3.
+myArray.splice(0, 0, "Bob Marley");
+console.log(myArray);
+
+// 4.
+myArray.pop();
+
+// 5.
+myArray.reverse();
+// This did mutate the array, which means to change some property or this array without redefining the variable itself. For example, changing the length of the array, the order of the elements, or changing the elements themselves would all be mutations
+// The reverse method returns the reversed array as a result.
+
+
+
 
 
 
