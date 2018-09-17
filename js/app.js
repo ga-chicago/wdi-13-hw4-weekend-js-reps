@@ -438,7 +438,7 @@ console.log(getRandomElement(quotes));
 // Create an object called user.
 // Write in to the object the key-value pairs for name, email, age, and purchased. Set the value of purchased to an empty array []. Set the other values to whatever you would like.
 const user = {
-	name: "Fil",
+	name: "fil",
 	email: "email@gmail.com",
 	age: 26,
 	purchased: []
@@ -492,3 +492,22 @@ for (let i = 0; i<user.purchased.length; i++){
 for (let i = 0; i<user.friend.purchased.length; i++){
 	console.log(user.friend.purchased[i]);
 }
+//------------- functions can operate on objects---------------//
+// Write a single function updateUser that takes no parameters. When the function is run, it should:
+// it should increment the user's age by 1
+// make the user's name uppercase
+// The function does not need a return statement, it will merely modify the user object.
+// const updateUser = () => {
+// 	for(let i = 0; i<user.age; i++)
+// 		user.name = user.name.toUpperCase();
+// }
+// updateUser();
+// console.log(user);
+
+// Write a function oldAndLoud that performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our user object, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called. Call your oldAndLoud function with user as the argument.
+const oldAndLoud = (person) => {
+	for(let i = 0; i<user.age; i++)
+		person.name = person.name.toUpperCase();
+}
+oldAndLoud(user);
+console.log(user);
