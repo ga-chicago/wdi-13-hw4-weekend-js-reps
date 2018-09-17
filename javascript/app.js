@@ -93,7 +93,35 @@ for (let i = 0; i <= 100; i++) {
 	} 
 }
 
+//C Give me Five
+//I'm super happy I actually got this, and it was pretty easy! All the other stuff makes this seem lame in comparison.
+
+for (let i = 0; i <= 100; i++) {
+	if (i % 5 === 0) {
+		console.log(" I found a " + i + ", high five!");
+	} else if (i % 3 === 0) {
+	console.log(" I found a " + i + ". Three is a crowd.");
+	} else {
+		console.log(i);
+	}
+}
 
 
+//D Savings Account
 
+let bank_account = 0;
+
+for (let i = 0; i <= 10; i++) {
+	bank_account += i; 
+}
+console.log("I have " + bank_account + " in my account. That's so sad Alexa play Alexa playing despacito");
+
+//this was something I had forgotten at first. Once I wrote out bank account = bank account + i it came to me.
+
+let bank_account_2 = 0;
+//Do you know how many times I've been screwed up by using i over and over again in a homework assignment???
+for  (let j = 0; j <= 100; j++) {
+	bank_account_2 +=  j * 2;
+}
+console.log("Well I suppose that's a lot better. I have " + bank_account_2 + " in my account. Alexa play Prince");
 
