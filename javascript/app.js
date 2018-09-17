@@ -254,6 +254,32 @@ console.log(`Thom is looking fierce in a ${thomsCloset[0][0]}, ${thomsCloset[1][
 
 thomsCloset[1][2] = "footie pajamas";
 
+// IV.
+// Part A.
+// Already done this problem, Slimer!
+
+// Part B.
+const printCool = (name) => {
+	console.log(`${name} is cool`);
+}
+
+printCool("Andy");
+
+// C.
+const calculateCube = (side) => {
+	return Math.pow(side, 3);
+}
+
+// D.
+const isVowel = (character) => {
+	if(character === "a" || character === "e" || character === "i" || character === "o" || character === "u") {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+console.log(isVowel("e"))
 
 
 
