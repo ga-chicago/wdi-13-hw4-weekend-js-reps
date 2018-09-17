@@ -244,7 +244,10 @@ console.log(`Thom is looking fierce in a ${thomsCloset[0][2]}, ${thomsCloset[1][
 thomsCloset[1][2] = "Footie Pajamas";
 
 
+//IV Functions
 
+//A printGreeting
+//done it... 
 
 
 
