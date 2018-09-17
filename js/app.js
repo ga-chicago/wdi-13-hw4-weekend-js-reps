@@ -438,12 +438,45 @@ user.purchased.push('Merino jodhpurs')
 
 console.log(user.purchased[2]);
 
+// Object within object
 
+user.friend = {
+	name: 'Pepe',
+	age: 30,
+	location: 'Orlando, FL',
+	purchased: []
+}
 
+console.log(user.friend.age);
 
+console.log(user.friend.location);
 
+user.friend.age = 55
 
+console.log(user.friend.age);
 
+user.friend.purchased.push('The One Ring...');
+
+user.friend.purchased.push('A latte')
+
+console.log(user.friend.purchased[1]);
+
+// Loops
+
+// const updateUser = () => {
+// 	user.age = user.age +1
+// 	user.name = user.name.toUpperCase()
+// }
+// updateUser();
+
+// console.log(user)
+
+const oldAndLoud = (person) => {
+	person.age = person.age + 1
+	person.name = person.name.toUpperCase();
+}
+oldAndLoud(user);
+console.log(user);
 
 
 
