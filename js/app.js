@@ -531,7 +531,7 @@ const reverseWordOrder = (string) => {
     return reverse;
 }
 
-console.log(reverseWordOrder('matilda has come'));
+// console.log(reverseWordOrder('matilda has come'));
 
 
 //K. Get down and diry with Math random
@@ -676,12 +676,41 @@ user.friend.purchased.push('A latte');
 // console.log(user.friend.purchased[1]);
 
 
+//F. Loops
 
 
+// Write a for loop that iterates over the User's purchased array (NOT the friend's purchased array), and prints each element to the console.
+
+for (let i = 0; i < user.purchased.length; i++) {
+  console.log(user.purchased[i]);
+}
 
 
+// Write a for loop that iterates over the Friend's purchased array, and prints each element to the console.
 
 
+for (let i = 0; i < user.friend.purchased.length; i++) {
+  console.log(user.friend.purchased[i]);
+}
 
+//G. Functions can operate on objects
 
+//Write a single function updateUser that takes no parameters. When the function is run, it should:
 
+const updateUser = () => {
+// it should increment the user's age by 1
+user.age = user.age +1
+// make the user's name uppercase
+user.aname = user.name.toUpperCase()
+}
+updateUser();
+console.log(user);
+
+// Write a function oldAndLoud that performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our user object, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called. Call your oldAndLoud function with user as the argument.
+
+const oldAndLoud = (person) => {
+  person.age = person.age + 1
+  person.name = person.name.toUpperCase();
+}
+oldAndLoud(user);
+console.log(user);
