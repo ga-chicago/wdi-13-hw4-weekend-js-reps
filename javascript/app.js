@@ -364,6 +364,7 @@ const user = {
 user.email = "andy.prudhomme@gmail.com";
 user.age ++;
 
+user.location = "Chicago";
 
 
 
