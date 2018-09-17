@@ -489,27 +489,10 @@ maxOfThree(11,11,8)
 
 //Write a function printLongestWord that accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
 
-// const printLongestWord = (array) => {
-// let strings = [];
-// // let length = 0;
-// let longest;
-// for (let i = 0; i < strings.length; i++) {
-//   if(strings[i] > length) {
-//     let length = strings[i].length;
-//     longest = strings[i];
-//   }
-//   return longest;
-// }
-// }
-// // console.log(longest);
-// console.log(printLongestWord(['what','could','i','possibly','do']));
-
-
-
 
 
 function printLongestWord(array) {
-  var longestWord = "";
+  let longestWord = "";
 
   array.forEach(function(word) {
     if(word.length > longestWord.length) {
@@ -520,7 +503,7 @@ function printLongestWord(array) {
   return longestWord;
 }
 
-var word = printLongestWord(["What","a","long", "weekend", "that", "was", "over", "too", "quickly"]);
+let word = printLongestWord(["What","a","long", "weekend", "that", "was", "over", "too", "quickly"]);
 console.log(word);
 
 
