@@ -577,6 +577,12 @@ const user = {
 user.email = 'finnrulez@ooo.com';
 user.age++;
 
+//c. 
+
+user.location = 'Land of Ooo';
+
+
+
 
 
 
