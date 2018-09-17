@@ -376,3 +376,14 @@ for (let i = string.length - 1; i >= 0; i--) {
 }
 
 reverseWordOrder("Hello");
+
+//K Get down and dirty with Math.random(). 
+
+
+const returnInteger = () => {
+	return Math.floor(Math.random() * 10);
+}
+
+
+
+
