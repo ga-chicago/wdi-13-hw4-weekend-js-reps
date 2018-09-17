@@ -391,6 +391,16 @@ user.friend.purchased.push("A latte");
 
 console.log(user.friend.purchased[1]);
 
+// F.
+
+for(let i = 0; i < user.purchased.length; i++) {
+	console.log(user.purchased[i]);
+}
+
+for(let i = 0; i < user.friend.purchased.length; i++) {
+	console.log(user.friend.purchased[i]);
+}
+
 
 
 
