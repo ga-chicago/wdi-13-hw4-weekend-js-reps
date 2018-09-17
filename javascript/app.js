@@ -413,3 +413,17 @@ const user = {
 //B Update the User
 user.email = "Joe.Bob@gmail.com";
 user.age++;
+
+//c Adding Keys and Values
+user.location = "Chicago";
+
+//D Shopaholic
+
+//1 
+user.purchased.push("carbohydrates");
+//2
+user.purchased.push("peace of mind");
+//3 
+user.purchased.push("Merino jodhpurs");
+//4
+console.log(user.purchased[2]);
