@@ -425,6 +425,9 @@ const user = {
 	purchased: []
 }
 
+user.email = 'Tophy03@gmail.com';
+user.age = user.age + 1
+
 
 
 
