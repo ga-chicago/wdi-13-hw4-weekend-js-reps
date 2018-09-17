@@ -298,7 +298,13 @@ const printLongestWord = (stringArray) => {
 
 console.log(printLongestWord(["lllll", "jjjjjjj", "hello hello hello"]));
 
+// I.
 
+const transmogrify = (num1, num2, num3) => {
+	return Math.pow((num1 * num2), num3);
+}
+
+console.log(transmogrify(5, 3, 2));
 
 
 
