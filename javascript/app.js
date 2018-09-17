@@ -763,38 +763,46 @@ console.log(cat1.breed);
 // name
 // breed
 // age (a number)
+const cat2 = {
+	name: "Muta",
+	breed: "Big Fat Cat",
+	age: "unknown"
+}
+
+
 // 3. Combine Cats!
+
 // The cats are multiplying!
-
 // Write a function combineCats that has two parameters mama, and papa. The function will take two arguments -- each a cat object.
-
 // Pass cat1 and cat2 as arguments to the combineCats function. The function should console.log them.
 // Example:
-
 // combineCats(cat1, cat2)
 // { name: "Joe", age: 19, breed: "Mog" }
-
 // { name: "Jam", age: 45, breed: "Siamese" }
-
 // This is to demonstrate that functions can take objects as arguments
-
 // You could also invoke the combineCats function by writing the objects straight into the parentheses:
-
 // combineCats({ name: "Craig", age: 20, breed: "unknown" }, { name: "Linda", age: 20, breed: "undefined" });
-
 // Make it so the combineCats function will return a combination of the two incoming cats
 // The result should be an object wherein the
 // name is a concatenation of the parents' names
 // the age is 1
 // the breed is each of the parents' breeds with a hyphen in between
 // Example:
-
 // console.log(combineCats(cat1, cat2));
 // Result:
-
-
-
+// { name: "JoeJam", age: 1, breed: "Mog-Siamese" }
 // This is to demonstrate that a function can return an object
+const combineCats = (mama, papa) => {
+	console.log(mama);
+	console.log(papa);
+	const babyCat = {};
+	babyCat.name = mama.name + papa.name;
+	babyCat.age = 1;
+	babyCat.breed = mama.breed + "-" + papa.breed;
+	return babyCat;
+}
+console.log(combineCats(cat1, cat2));
+
 
 
 // 4. Cat brain bender
