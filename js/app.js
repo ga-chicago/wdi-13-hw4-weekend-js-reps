@@ -261,19 +261,35 @@
 		return (num1*num2)**num3;
 	}
 	//j. reverseWordOrder v2
-	//find positions of spaces
-	//return strings after each space
-	//unsure how to do this; will return to it
-	/*const reverseWordOrder = (string) => {
-		let newString = "";
-		for(let i = 0; i < ) {
+	
 
+	const reverseWordOrder = (string) => {
+		let newString = "";
+		let currentWord = "";
+		for(let i = 0; i < string.length; i++) {
+			let prevChar = "";
+			//console.log(prevChar);
+			if(string[i] !== " ") {
+				currentWord = currentWord + string[i];
+				//console.log(currentWord);
+				//console.log(newString);
+			} else if(string[i] === " ") {
+				newString = currentWord + string[i] + newString;
+				currentWord = "";
+				//console.log(currentWord);
+				//console.log(newString);
+			}
+			prevChar = string[i];
+			//console.log(prevChar);
+			//console.log(newString);
 		}
-	}*/
-	//"I like food"
+		newString = currentWord + " " + newString;
+		console.log(newString);
+	}
+	//"food like I"
 	//k. Math.random()
 	//1. int between 1 and 10
-	const rand1 = () => {
+	/*const rand1 = () => {
 		return Math.floor(Math.random()*9)+1;
 	}
 	//2. int between 10 and 100
@@ -339,7 +355,7 @@
 	const oldAndLoud = (person) => {
 		person.age += i;
 		person.name = person.name.toUpperCase();
-	}
+	}*/
 
 
 
