@@ -330,7 +330,29 @@ const transmogrify = (num1, num2, num3) => {
 
 console.log(transmogrify(5, 3, 2));
 
-// 
+// J.
+// No clue how to do this without methods...
+
+// K.
+const randomFunction1 = () => {
+	return Math.random()*10;
+
+}
+
+const randomFunction2 = () => {
+	return (Math.random()*90) + 10;
+}
+
+const randomFunction3 = () => {
+	return (Math.floor(Math.random()*12735) + 532);
+}
+
+const getRandomElement = () => {
+	return quotes[(Math.floor(Math.random()*quotes.length))];
+}
+
+console.log(getRandomElement);
+
 
 
 
