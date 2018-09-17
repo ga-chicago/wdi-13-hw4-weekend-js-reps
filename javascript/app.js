@@ -332,6 +332,13 @@ console.log(transmogrify(5, 3, 2));
 
 // J.
 // No clue how to do this without methods...
+const reverseWordOrder = (words) => {
+	const words = words.split(" "):
+	for(i = 0; i < words.length; i++) {
+		
+	}
+
+}
 
 // K.
 const randomFunction1 = () => {
