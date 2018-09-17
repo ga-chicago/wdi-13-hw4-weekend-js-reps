@@ -281,6 +281,16 @@ const isVowel = (character) => {
 
 console.log(isVowel("e"))
 
+// E.
+const lengthArray = []
+const getMultipleLengths = (string1, string2) => {
+	lengthArray.push(string1.split("").length);
+	lengthArray.push(string2.split("").length);
+	return lengthArray;
+};
+
+
+console.log(getMultipleLengths("Andy", "word"));
 
 
 
